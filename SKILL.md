@@ -665,7 +665,7 @@ Negative parallelism across two sentences:
 > 67% of caregivers in Nigeria are women.
 
 **After:**
-> 67% of caregivers carrying the highest burden in Nigeria are women — not because they volunteered, but because the family decided they were most available. That's not a stat. That's a system.
+> 67% of caregivers carrying the highest burden in Nigeria are women — assigned the role by a family that decided they were most available, without being asked.
 
 ---
 
