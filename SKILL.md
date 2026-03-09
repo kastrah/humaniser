@@ -1,16 +1,18 @@
 ---
 name: humanizer
-version: 3.0.0
+version: 3.1.0
 description: |
   Remove signs of AI-generated writing from text. Use when editing or reviewing
   text to make it sound more natural and human-written. Based on Wikipedia's
   comprehensive "Signs of AI writing" guide and real-world copy editing standards.
   Detects and fixes patterns including: inflated symbolism, promotional language,
   superficial -ing analyses, vague attributions, em dash overuse, rule of three,
-  AI vocabulary words, negative parallelisms, excessive conjunctive phrases,
-  fragment sentences, throat-clearing, stutter sentences, labels without content,
-  stats without explanation, and writer-serving headlines. Applies to blogs,
-  emails, social media, landing pages, and all marketing copy.
+  AI vocabulary words, negative parallelisms, fragment sentences, throat-clearing,
+  stutter sentences, labels without content, stats without explanation,
+  nominalization, passive voice avoiding agency, adverb intensifier stacking,
+  unearned intimacy, journey/navigate/landscape metaphors, over-explained
+  transitions, participial appositives, and writer-serving headlines. Applies to
+  blogs, emails, social media, landing pages, and all marketing copy.
 allowed-tools:
   - Read
   - Write
@@ -438,6 +440,8 @@ These patterns operate above the word level. They are structural AI tells — no
 ---
 
 **Applies to:** blog sections, email body, social captions, landing page copy
+
+**Note — intentional vs. structural fragments:** Pattern 25 targets structural fragments: noun phrases or participials that AI generates as standalone sentences in place of complete thoughts. A deliberately chosen stylistic fragment — used once, for rhythmic effect, where the complete meaning is conveyed — is different. The test: a structural fragment exists because the sentence was never finished. An intentional stylistic fragment exists because the writer stopped exactly there on purpose. When in doubt, write the complete sentence.
 
 ---
 
@@ -1047,25 +1051,353 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 
 ---
 
+## ADDITIONAL PATTERNS
+
+The following patterns supplement the sections above. Each is numbered to continue the sequence (45–51) and named as a standalone rule — no assumption about existing knowledge required.
+
+---
+
+### 45. Participial Appositive (Em Dash + Loose Modifier)
+
+**Problem:** A participial phrase is appended to a noun via em dash in place of a relative clause. The em dash + participial makes the grammatical relationship implicit. A relative clause (who/which/that + verb) states it directly. AI uses this construction as a shortcut that sounds punchy but reduces precision.
+
+**Patterns to catch:**
+- `noun — past participial`: `women — assigned the role by`, `a system — designed around compliance`
+- `noun — present participial`: `a team — operating without oversight`, `a model — relying on assumptions`
+
+**Rule:** When a participial phrase carries the main relationship between a noun and its modifier, use a relative clause. Reserve em dashes for genuine parenthetical asides — information that could be removed without losing the main point.
+
+**Before:**
+> 67% of caregivers are women — assigned the role by a family that decided they were most available.
+
+**After:**
+> 67% of caregivers are women who were assigned the role by a family that decided they were most available.
+
+---
+
+**Before (email):**
+> She manages a team — spread across four time zones with no centralised handover process.
+
+**After:**
+> She manages a team that is spread across four time zones with no centralised handover process.
+
+---
+
+**Before (landing page):**
+> Famasi is a pharmacy — built around the caregiver, not the patient alone.
+
+**After:**
+> Famasi is a pharmacy that puts the caregiver at the centre of its service.
+
+---
+
+**Applies to:** blog body, case studies, product descriptions, landing page copy
+
+---
+
+### 46. Nominalization (Verb-to-Noun Conversion)
+
+**Problem:** An active verb is converted into a noun phrase, which then requires a weaker supporting verb. "Make a decision" instead of "decide." "Conduct an investigation" instead of "investigate." Nominalizations lengthen sentences, obscure who is doing what, and make writing feel bureaucratic.
+
+**High-frequency nominalizations:**
+- "provide assistance" → "help"
+- "make a decision" → "decide"
+- "conduct an investigation" → "investigate"
+- "achieve an improvement" → "improve"
+- "offer a solution" → "solve"
+- "come to the realization" → "realize"
+- "have an impact on" → "affect"
+- "give consideration to" → "consider"
+- "make use of" → "use"
+- "take action on" → "act on"
+- "provide support for" → "support"
+- "reach an agreement" → "agree"
+- "perform an analysis" → "analyze"
+- "undertake a review" → "review"
+
+**Rule:** Find the real verb buried in the noun phrase and use it directly.
+
+**Before:**
+> The team made a decision to conduct an investigation into the caregiver's situation and provide assistance where possible.
+
+**After:**
+> The team decided to investigate the caregiver's situation and help where they could.
+
+---
+
+**Before (email):**
+> I am writing to offer a solution to the challenges you are experiencing and to give consideration to your request.
+
+**After:**
+> I'm writing to address the problem you raised and respond to your request.
+
+---
+
+**Before (landing page):**
+> Famasi provides support for caregivers who are experiencing difficulty in the management of medication logistics.
+
+**After:**
+> Famasi supports caregivers who struggle to manage their medications.
+
+---
+
+**Applies to:** all copy — nominalizations are universal but most damaging in emails and landing pages where directness matters most
+
+---
+
+### 47. Passive Voice Avoiding Agency
+
+**Problem:** AI uses passive construction to avoid naming who did what. "Mistakes were made" names no one. "The decision was made to..." hides who decided. In marketing copy, removing agency removes credibility — the reader cannot evaluate a claim with no named actor.
+
+**When passive is acceptable:** agent unknown or genuinely irrelevant.
+> "The clinic was established in 1992." (who built it is irrelevant; the date is the point)
+
+**When passive is evasive:** known agent deliberately omitted — fix it.
+> ❌ "Mistakes were made in handling your account."
+> ✅ "We made a mistake in handling your account."
+
+**Rule:** Name who is doing what. Use passive only when the receiver of the action is genuinely more important than the actor, or when the actor is unknown.
+
+**Before:**
+> The caregiving role is often assigned to women without their being consulted.
+
+**After:**
+> Families assign the caregiving role to women without consulting them.
+
+---
+
+**Before (email):**
+> Your feedback has been received and will be reviewed by the appropriate team.
+
+**After:**
+> We received your feedback. [Name] will review it by Thursday.
+
+---
+
+**Before (landing page):**
+> Medications are delivered, refill dates are synchronised, and care plans are documented.
+
+**After:**
+> We deliver medications, synchronise refill dates, and document care plans your whole family can see.
+
+---
+
+**Applies to:** emails, case studies, testimonials, landing pages — anywhere agency and accountability matter
+
+---
+
+### 48. Adverb Intensifier Stacking
+
+**Problem:** An intensifying adverb is paired with an adjective that already carries the meaning. The adverb adds no information — it signals the writer felt the adjective was insufficient and tried to compensate with volume. Stronger word choice or a specific example is always better than stacking.
+
+**High-frequency offenders:**
+- "extremely important" → state the specific consequence
+- "highly significant" → state what the significance is
+- "particularly crucial" → state what happens without it
+- "truly remarkable" → say what is remarkable specifically
+- "incredibly powerful" → say what the power is
+- "absolutely essential" → "essential," or state what happens without it
+- "deeply concerned" → state what the concern is
+- "very unique" → "unique" (unique is already absolute and cannot be modified)
+- "completely free" → "free"
+- "totally unnecessary" → "unnecessary"
+
+**Rule:** Drop the adverb. If the adjective alone feels insufficient, replace both with a specific claim, consequence, or example.
+
+**Before:**
+> This is an extremely important issue that requires highly significant attention from policymakers.
+
+**After:**
+> Without policy intervention, caregivers absorb the health system's entire informal labour supply at no cost to the state.
+
+---
+
+**Before (email):**
+> We are incredibly excited to share this truly remarkable update with you.
+
+**After:**
+> We've been building this for six months. Here's what it does.
+
+---
+
+**Before (social):**
+> This is absolutely essential reading for anyone deeply committed to caregiver welfare.
+
+**After:**
+> If you run a caregiver support program, this changes how you should think about what your members actually need.
+
+---
+
+**Applies to:** all copy — adverb stacking is universal but most visible in marketing copy where it substitutes for specificity
+
+---
+
+### 49. Unearned Intimacy
+
+**Problem:** The writer assumes the reader's thoughts, feelings, or experiences without evidence. "You may be wondering..." presumes what the reader is wondering. "We've all been there" assumes a shared experience. When the assumption misses, the sentence meant to connect instead distances.
+
+**Rule:** Don't name the reader's inner state. Show the situation that produces it and let the reader recognise themselves.
+
+**Patterns to cut:**
+> "You may be wondering..."
+> "I know what you're thinking..."
+> "We've all been there..."
+> "If you're like most [audience]..."
+> "You've probably experienced..."
+> "I know you're busy, so..."
+> Any sentence that names the reader's feeling instead of the situation that causes it.
+
+**Before:**
+> You may be wondering how to balance caring for a loved one while maintaining your own wellbeing.
+
+**After:**
+> When did you last sit down and eat a proper meal?
+
+---
+
+**Before:**
+> We've all been in that situation where everything feels like too much. You're not alone.
+
+**After:**
+> 85% of informal caregivers in Nigeria report some level of burnout. Most of the advice written about it was written for someone else.
+
+---
+
+**Before (email):**
+> I know you're busy, so I'll keep this short.
+
+**After:**
+> [Keep it short. Don't announce that you're keeping it short.]
+
+---
+
+**Before (social):**
+> If you're like most caregivers, you've probably felt invisible at some point.
+
+**After:**
+> The question "how is she doing?" almost always means the patient.
+
+---
+
+**Applies to:** blog openers, email intros, social hooks, testimonial copy — anywhere the writer attempts to connect by assuming rather than showing
+
+---
+
+### 50. Journey / Navigate / Landscape Metaphors
+
+**Problem:** Three metaphors — journey, navigate, and landscape — appear together in AI writing at a rate that makes them immediately recognisable. They substitute movement-language for precision about what is actually happening. Nobody is navigating a landscape or charting a path. They are managing costs, coordinating appointments, or waiting on hold.
+
+**Words to eliminate:**
+- "journey" (figurative): "their healing journey", "the caregiving journey", "a journey of discovery"
+- "navigate" (figurative): "navigating the complexities of", "navigate the system", "navigating challenges"
+- "landscape" (abstract): "the healthcare landscape", "the evolving landscape of", "the competitive landscape"
+- "path forward": "charting a path forward", "finding the path forward"
+- "roadmap": "a roadmap for success", "a roadmap to recovery"
+- "milestone" (figurative): "an important milestone in their journey"
+- "ecosystem" (abstract): "the caregiving ecosystem", "the healthcare ecosystem"
+
+**Rule:** Say what is actually happening. Replace movement metaphors with the specific action, cost, decision, or system the writer was reaching for.
+
+**Before:**
+> Caregivers often navigate the complex landscape of healthcare, embarking on a journey that tests their resilience at every milestone.
+
+**After:**
+> Caregivers coordinate appointments, fund treatments, and manage medication schedules, often while working full-time.
+
+---
+
+**Before (email):**
+> We're here to help you navigate your caregiving journey and find the path forward.
+
+**After:**
+> We handle the pharmacy logistics so you can focus on the parts of caring that only you can do.
+
+---
+
+**Before (landing page):**
+> Famasi is your roadmap through the complex healthcare landscape.
+
+**After:**
+> Famasi coordinates your refills, delivers to your door, and keeps a medication record your whole family can see.
+
+---
+
+**Applies to:** all copy — these metaphors appear most in mission statements, about pages, and opening paragraphs where writers reach for significance language
+
+---
+
+### 51. Over-Explained Transition
+
+**Problem:** A transition sentence describes that a transition is happening instead of making one. "Having established X, we can now turn to Y" uses a full sentence to do what a paragraph break does in zero words. The reader already knows a transition is coming — they can see the new paragraph.
+
+**Patterns to cut:**
+> "Having established X, we can now turn to Y."
+> "With that context in mind, let's explore..."
+> "Now that we understand X, it's time to look at Y."
+> "Building on this, we can consider..."
+> "This brings us to our next point."
+> "Before we continue, it's worth recapping..."
+> Any sentence that describes what the next paragraph will do instead of doing it.
+
+**Rule:** Cut the explanation. Open the next section with its first real sentence. If the connection between sections is not clear without an explanation, the sections are in the wrong order — fix the structure, not with an announcement.
+
+**Before:**
+> Now that we've seen the scale of caregiver burnout in Nigeria, it's time to look at what actually helps.
+>
+> [Systems section begins]
+
+**After:**
+> [Delete. Open the systems section with its first real sentence.]
+
+---
+
+**Before (email):**
+> With that background in mind, I wanted to share the update you've been waiting for.
+
+**After:**
+> [The update, directly.]
+
+---
+
+**Before (landing page):**
+> Having understood the problem, let's take a look at how Famasi solves it.
+
+**After:**
+> [Show how Famasi solves it. The reader understood the problem — they read it.]
+
+---
+
+**Applies to:** blog section transitions, email body, report sections, landing page flow — anywhere the writer signals a shift instead of making one
+
+---
+
 ## Process
 
 1. Read the input text carefully
 2. Identify all instances of the patterns above
 3. Rewrite each problematic section
 4. Ensure the revised text:
-   - Has no fragment sentences — every sentence has a subject and a verb doing real work
-   - Has no throat-clearing — every opener starts with the substance, not the announcement of it
-   - Has no stutter sentences — consecutive short sentences say different things
-   - Has no negative parallelisms — states what things ARE, not what they are not
-   - Labels nothing without explaining what is inside the label
-   - Follows every statistic with an explanation of what it means or why it happened
-   - Has headlines that communicate to a stranger before they enter the section
-   - Has a close that does one job
+   - Has no fragment sentences — every sentence has a subject and a verb doing real work (P25)
+   - Has no throat-clearing — every opener starts with the substance, not the announcement of it (P26)
+   - Has no stutter sentences — consecutive short sentences say different things (P27)
+   - Has no negative parallelisms — states what things ARE, not what they are not (P28)
+   - Has no opener that announces instead of starting (P29)
+   - Labels nothing without explaining what is inside the label (P30)
+   - Follows every statistic with an explanation of what it means or why it happened (P31)
+   - Has headlines that communicate to a stranger before they enter the section (P43)
+   - Has a close that does one job (P42)
+   - Uses active verbs rather than nominalized noun phrases — "decide" not "make a decision" (P46)
+   - Names who is doing what — no evasive passive voice (P47)
+   - Uses no adverb intensifiers — specific claims or consequences replace vague emphasis (P48)
+   - Shows the reader's situation rather than naming their assumed inner state (P49)
+   - Uses no journey / navigate / landscape metaphors — states what is actually happening (P50)
+   - Transitions by opening the next thing, not by announcing that a transition is happening (P51)
+   - Uses relative clauses (who/which/that + verb) rather than em dash + participial for noun modification (P45)
    - Sounds natural when read aloud
    - Varies sentence structure naturally
    - Uses specific details over vague claims
    - Maintains appropriate tone for context
-   - Uses simple constructions (is/are/has) where appropriate
+   - Uses simple constructions (is/are/has) where appropriate (P8)
 5. Present a draft humanized version
 6. Prompt: "What makes the below so obviously AI generated?"
 7. Answer briefly with the remaining tells (if any)
