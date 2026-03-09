@@ -1,13 +1,16 @@
 ---
 name: humanizer
-version: 2.2.0
+version: 3.0.0
 description: |
   Remove signs of AI-generated writing from text. Use when editing or reviewing
   text to make it sound more natural and human-written. Based on Wikipedia's
-  comprehensive "Signs of AI writing" guide. Detects and fixes patterns including:
-  inflated symbolism, promotional language, superficial -ing analyses, vague
-  attributions, em dash overuse, rule of three, AI vocabulary words, negative
-  parallelisms, and excessive conjunctive phrases.
+  comprehensive "Signs of AI writing" guide and real-world copy editing standards.
+  Detects and fixes patterns including: inflated symbolism, promotional language,
+  superficial -ing analyses, vague attributions, em dash overuse, rule of three,
+  AI vocabulary words, negative parallelisms, excessive conjunctive phrases,
+  fragment sentences, throat-clearing, stutter sentences, labels without content,
+  stats without explanation, and writer-serving headlines. Applies to blogs,
+  emails, social media, landing pages, and all marketing copy.
 allowed-tools:
   - Read
   - Write
@@ -390,12 +393,674 @@ Avoiding AI patterns is only half the job. Sterile, voiceless writing is just as
 
 ---
 
+---
+
+## SENTENCE & STRUCTURE PATTERNS
+
+These patterns operate above the word level. They are structural AI tells — not vocabulary problems but construction problems. They appear in blogs, emails, social posts, and landing pages.
+
+---
+
+### 25. Fragment Sentences
+
+**Problem:** Noun phrases, participial phrases, and relative clauses used as standalone sentences. They have no main verb doing real work. They feel punchy but communicate nothing on their own.
+
+**Types to catch:**
+- Noun phrase: "A strategy built on trust." (no verb)
+- Participial phrase: "Running on empty, still answering every call." (no subject)
+- Relative clause: "The manager who never says no." (no predicate)
+- List as sentence: "Anxiety, guilt, helplessness, anger." (no verb)
+- Setup sentence: "It doesn't look like collapse." followed by "It looks like..." (the first sentence exists only to introduce the second)
+
+**Before:**
+> Burnout doesn't look like collapse.
+> It looks like snapping at someone. Dreaming about when it ends. Forgetting your own appointments. The smile you put on before you walk in.
+
+**After:**
+> Burnout looks like snapping at someone and spending the rest of the day hating yourself for it. It looks like dreaming about when it ends, then hating yourself for the thought. It means forgetting your own appointments and putting on a smile before you walk into the room that you drop the moment you're alone.
+
+---
+
+**Before:**
+> No application, no training, no moment where you formally agreed.
+
+**After:**
+> ...with no application process, no training, and no formal moment where you agreed to any of it.
+
+---
+
+**Before:**
+> The colleague who never complains. Running on empty.
+
+**After:**
+> The colleague who never complains is running on empty.
+
+---
+
+**Applies to:** blog sections, email body, social captions, landing page copy
+
+---
+
+### 26. Throat-Clearing Sentences
+
+**Problem:** A sentence that announces what is coming instead of saying it. It adds a full sentence of travel time before arriving at the point. Cut it and open directly with the substance.
+
+**Patterns to catch:**
+> "X is different in specific, concrete ways."
+> "There are several important things to consider."
+> "Let's take a closer look at this."
+> "It's worth noting that..."
+> "This is where things get interesting."
+> "Now let's turn to..."
+> Any sentence that could be deleted without losing information.
+
+**Before:**
+> Nigeria is different in specific, concrete ways.
+>
+> 16.4% of Nigerian households face catastrophic health expenditure...
+
+**After:**
+> [Delete the throat-clearer entirely]
+>
+> 16.4% of Nigerian households face catastrophic health expenditure...
+
+---
+
+**Before (email):**
+> I wanted to reach out today to share some thoughts on our upcoming product launch.
+
+**After:**
+> We're launching on March 14th, and three things need to happen before then.
+
+---
+
+**Before (social):**
+> Something important happened this week that I think you should know about.
+
+**After:**
+> We crossed 10,000 deliveries this week.
+
+---
+
+**Applies to:** section openers, email openers, social post hooks, paragraph transitions
+
+---
+
+### 27. Stutter Sentences
+
+**Problem:** Two consecutive short sentences making the same point. The second adds no new information — it just repeats the first in different words. Merge them or cut one.
+
+**Before:**
+> Relief arrives first, often. Guilt about the relief follows closely.
+
+**After:**
+> Relief usually arrives first, and guilt about the relief follows close behind.
+
+---
+
+**Before:**
+> Nobody sees this. Nobody protects it.
+
+**After:**
+> Nobody sees this, and nobody protects it.
+
+---
+
+**Before (email):**
+> We missed the deadline. The project was late.
+
+**After:**
+> We missed the deadline by four days.
+
+---
+
+**Before (social):**
+> This matters. It's important.
+
+**After:**
+> [Pick one and make it specific. Delete the other.]
+
+---
+
+### 28. Indirect Constructions and Negative Framing Before Positive
+
+**Problem:** AI routinely hedges before committing — stating what something is NOT before stating what it IS. This creates two sentences to carry one idea. Cut the negative frame and state the positive directly. If contrast is genuinely needed, keep it in one clause, not split across two sentences.
+
+**Patterns to kill:**
+
+"Not because X, but because Y" — cut the hedge, keep the commitment.
+> ❌ "Not out of carelessness. Out of there being nothing left."
+> ✅ "Because there is nothing left."
+
+"Not X. X." — the negation followed by the affirmation.
+> ❌ "This is not a personal failing. It is a documented pattern with a cause."
+> ✅ "It is a documented pattern with a specific cause: [state the cause]."
+
+Softening a fact before landing it:
+> ❌ "Not because they volunteered. Because someone had to."
+> ✅ "Because someone had to, and they were first in line."
+
+Negative parallelism across two sentences:
+> ❌ "It is not a sign that something is wrong with how you love. It's a sign of how much you do."
+> ✅ "It's evidence of how much you love."
+
+**Before (email):**
+> This isn't about blame. It's about accountability.
+
+**After:**
+> This is about accountability.
+
+---
+
+**Before (landing page):**
+> It's not just a pharmacy. It's a care system.
+
+**After:**
+> It's a care system that handles refills, deliveries, and medication reviews so you don't have to.
+
+---
+
+### 29. Opener That Announces Instead of Starts
+
+**Problem:** The first sentence of any piece, section, email, or social post describes what is coming instead of beginning. It warms up instead of diving in. Delete the announcement and open with the thing itself.
+
+**Before:**
+> In this post, we're going to look at why caregiver burnout is different in Nigeria, and what you can do about it.
+
+**After:**
+> 85% of informal caregivers in Nigeria report burnout. Most of the advice written about this was written for someone else.
+
+---
+
+**Before:**
+> It doesn't look like collapse.
+> It looks like snapping at the patient...
+
+**After:**
+> Burnout looks like snapping at the patient...
+
+---
+
+**Before (email):**
+> I wanted to share some thoughts on what we've been seeing with our customers lately.
+
+**After:**
+> Three customers cancelled this month for the same reason.
+
+---
+
+**Before (social):**
+> I've been thinking a lot about this, and I wanted to share it with you.
+
+**After:**
+> [The thought. Not the announcement of the thought.]
+
+---
+
+## ARGUMENT & EVIDENCE PATTERNS
+
+---
+
+### 30. Label Without Content
+
+**Problem:** A sentence names a category, phenomenon, or type without telling the reader what is actually inside it. Naming is not explaining. The label arrives but the content doesn't.
+
+**Rule:** When you name something, the same sentence or the next must tell the reader what is in it.
+
+**Before:**
+> It is a documented pattern with a cause.
+
+**After:**
+> It is a documented pattern with a specific cause — one person absorbs what an entire support system should carry, with no policy backup, no paid leave, and no formal acknowledgment that they exist.
+
+---
+
+**Before:**
+> Anticipatory grief is documented extensively in caregiver research. Anxiety, guilt, helplessness, anger. These are its fingerprints.
+
+**After:**
+> Anticipatory grief is documented extensively in caregiver research — anxiety, guilt, helplessness, and anger are its most consistent markers.
+
+---
+
+**Before (landing page):**
+> Famasi is a better pharmacy experience.
+
+**After:**
+> Famasi delivers your medications to your door, synchronises all your refills to one date, and keeps a care plan your whole family can see.
+
+---
+
+**Before (email):**
+> We have a process for this.
+
+**After:**
+> We have a three-step process: the request goes to [X], [X] reviews within 48 hours, and you receive confirmation by email.
+
+---
+
+### 31. Stat Without Explanation
+
+**Problem:** A statistic lands but the sentence ends before telling the reader what it means, why it happens, or what to do with it. A number is not a conclusion. It is evidence. It needs an explanation attached.
+
+**Rule:** Every statistic must be followed immediately by the explanation of why that number exists or what it means for the reader.
+
+**Before:**
+> 85% of informal caregivers in Nigeria report some level of burnout. This is a documented pattern with a cause.
+
+**After:**
+> 85% of informal caregivers in Nigeria report some level of burnout — a predictable outcome when one person absorbs what an entire support system should carry, with no policy backup, no paid leave, and no formal acknowledgment that they exist.
+
+---
+
+**Before (email):**
+> Our churn rate is 12%. We need to address this urgently.
+
+**After:**
+> Our churn rate is 12% — three points above target — driven primarily by customers who never completed onboarding in their first two weeks.
+
+---
+
+**Before (social):**
+> 67% of caregivers in Nigeria are women.
+
+**After:**
+> 67% of caregivers carrying the highest burden in Nigeria are women — not because they volunteered, but because the family decided they were most available. That's not a stat. That's a system.
+
+---
+
+### 32. Stat Dishonesty — Know What Your Number Actually Proves
+
+**Problem:** A statistic from a limited study gets presented as if it were national data, universal truth, or settled science. Scope matters. Using a hospital study as a national figure is dishonest, and readers notice.
+
+**Rule:** Know exactly what a stat proves before using it. Attribute it to its actual scope. A narrow, honestly attributed figure is stronger than a broad, shaky one.
+
+**Before:**
+> In Nigerian hospitals, 92% of informal caregivers are women. (implies national data — it came from one hospital study)
+
+**After:**
+> In one Nigerian hospital study, 92% of the family members showing up daily to care for admitted patients were women.
+
+---
+
+**Rule:** Use plainspoken language around stats, not jargon.
+> ❌ "92% of informal caregivers" (reader must know what "informal" means)
+> ✅ "92% of the family members showing up every day"
+
+---
+
+### 33. Overclaimed Before/After
+
+**Problem:** The "after" in a story, case study, or testimonial suggests the subject recovered or reversed what they lost. That is almost never true, and readers know it. False resolution undermines emotional credibility. The after must be honest — not restorative, but forward-facing.
+
+**Rule:** The after is not a reversal. It is an opening.
+
+**Before:**
+> Since finding support, she gained back the space to be herself.
+
+**After:**
+> Since finding support, she gets to grow in directions that had been closed off for years.
+
+The distinction: "gained back" looks backward at what was taken and implies it was returned. "Gets to grow" looks forward at what is now possible. Only the second is true.
+
+**Rule:** Don't reward suffering with a tidy bow. Acknowledge the loss, then move forward without suggesting the loss was erased.
+
+**Before (email):**
+> Since switching to Famasi, everything about managing his medications became easy.
+
+**After:**
+> Since switching to Famasi, the monthly pharmacy run stopped being her problem. That's one less thing to hold in her head.
+
+---
+
+## FORMATTING & CONSTRUCTION PATTERNS
+
+---
+
+### 34. Bold Header + Colon Paragraph Openers
+
+**Problem:** A bold word or phrase followed by a colon, followed by explanation is the single most recognisable AI formatting pattern in structured content. It signals a generated list. It appears in blog sections, emails, and landing pages.
+
+**Before:**
+> **Build the care team — with names, not requests.** Requests evaporate. Someone is on medications...
+>
+> **Build the information document before you need it.** One shared record: medication names, dosages...
+
+**After:**
+> Name the roles instead of just asking for help. A request can be declined or forgotten, but ownership can't. When someone's name is on medications and someone else's is on appointments, the weight distributes.
+>
+> Build the information document before you need it — one shared record covering medication names, dosages, prescribing doctors, refill dates, and emergency contacts, kept accessible to everyone and updated after every significant appointment.
+
+---
+
+**Before (email):**
+> **Value:** Our platform saves you 3 hours per week.
+> **Ease:** Set up in under 10 minutes.
+> **Support:** We're available 24/7.
+
+**After:**
+> Our platform saves you 3 hours a week, takes under 10 minutes to set up, and our team is available 24/7 if anything goes wrong.
+
+---
+
+### 35. Paragraph Weight Imbalance
+
+**Problem:** Short paragraphs and long paragraphs are used interchangeably regardless of function. They each have jobs. Reversing them flattens the writing.
+
+**Rule:**
+- Short paragraphs carry emotional weight and emphasis. Use them for the line that must land.
+- Long paragraphs carry context, explanation, and texture. Use them where density is earned.
+- A one-sentence paragraph is a tool, not a habit. Use it when you need weight, not rhythm.
+
+**Before (wrong weight distribution):**
+> The stat lines are short. The systemic explanation is short. Elizabeth's voice is medium. The close is short. The one place length is earned is inside Elizabeth's quote — because that's where the texture lives.
+>
+> *(All short. Nothing lands harder than anything else.)*
+
+**After:**
+> Let the systemic explanation breathe — it needs length to earn the reader's trust. Let Elizabeth's voice be specific and textured — that's where the emotional weight lives. Let the close be short, because by then the reader should already feel it.
+
+---
+
+### 36. Thesis-Antithesis-Synthesis for Openers and Key Arguments
+
+**Problem:** One-sided arguments trigger resistance. When AI writes an opener, it states the position directly and then supports it. Readers who hold the common view mentally dismiss it. TAS prevents this by acknowledging the accepted view, exposing where it breaks down, and arriving at the stronger truth.
+
+**Structure:**
+- **Thesis:** The accepted, comfortable version of the idea
+- **Antithesis:** Where it fails, cracks, or doesn't hold
+- **Synthesis:** The stronger truth that accounts for both
+
+**Before (blog opener — one-sided):**
+> Caregivers in Nigeria face enormous challenges and often burn out. This post will help you understand what you're going through and what to do about it.
+
+**After — TAS:**
+> Luisa is the strong one — the sister who carries donkeys, moves bridges, and absorbs everyone's problems without complaint. The family knows who to call when something needs handling, and she answers every time. *(Thesis)*
+>
+> Then she starts losing her powers. Not dramatically, but quietly. She keeps showing up, keeps performing, keeps acting like nothing has changed, even as she runs completely empty and still answers every call. *(Antithesis)*
+>
+> If any of that landed somewhere in your chest, this piece is written for you. *(Synthesis)*
+
+---
+
+**Before (email — one-sided):**
+> Self-care is important for caregivers. Here are five tips to avoid burnout.
+
+**After — TAS:**
+> Most advice on caregiver burnout tells you to take breaks, set boundaries, and prioritise yourself. *(Thesis)*
+>
+> That advice was written for someone with paid leave, professional respite care, and a health system that sees them. Most Nigerian caregivers don't have any of that. *(Antithesis)*
+>
+> Here's what actually helps. *(Synthesis)*
+
+---
+
+**Applies to:** blog openers, email hooks, social posts challenging a common assumption, landing page headlines, any argument that counters received wisdom
+
+---
+
+## NARRATIVE & VOICE PATTERNS
+
+---
+
+### 37. Named Theme vs. Embodied Theme
+
+**Problem:** AI states the theme explicitly instead of letting the narrative demonstrate it. If you find yourself writing "this is what X means when you strip it down" — delete that sentence and trust the story to do the work. A reader who feels the theme is more persuaded than a reader who is told it.
+
+**Rule:** Never write the name of the theme. Write what the theme looks like in a specific moment.
+
+**Before:**
+> That is what Give to Gain actually means when you strip it down — when you give without keeping score, it comes back to you.
+
+**After:**
+> [Delete entirely. The story of Elizabeth giving up career opportunities to care for her mother, and then her community rallying around her when she needed help, already demonstrates reciprocity. Name it and you diminish it.]
+
+---
+
+**Before (email):**
+> This email is really about resilience — about finding strength in the hardest moments.
+
+**After:**
+> [Delete. Show a specific moment of a specific person doing a specific hard thing. Let the reader name what they're feeling.]
+
+---
+
+**Before (landing page):**
+> Famasi is built on the belief that caregivers deserve support too.
+
+**After:**
+> Famasi delivers medications to the door, synchronises refills, and maintains a care plan the whole family can see — so the person managing everything doesn't have to manage the pharmacy too.
+
+---
+
+### 38. False Resolution
+
+**Problem:** The ending suggests recovery, closure, or return to the original state. It implies the hard thing is over. It almost never is, and readers know it. False resolution destroys credibility at the close — which is the highest-stakes moment in any piece of writing.
+
+**Rule:** Resolution must be honest. Forward-facing, not restorative. Acknowledge the loss or difficulty; then point toward what is now possible, not what has been regained.
+
+**Before:**
+> She gained back the space to be herself.
+
+**After:**
+> She gets to grow in directions that had been closed off for years.
+
+---
+
+**Before (email close):**
+> Thanks to her new system, everything is easier now.
+
+**After:**
+> One thing is easier now. That one thing gives her back two hours a week she used to spend on hold with the pharmacy.
+
+---
+
+**Before (blog close):**
+> You are allowed to still be a person inside this role. And one day, you will get back to being fully yourself.
+
+**After:**
+> You are allowed to still be a person inside this role.
+> *(Stop there. Don't promise a future you can't guarantee.)*
+
+---
+
+### 39. Interview Voice vs. Authorial Voice
+
+**Problem:** When a real person's voice appears in copy — a quote, a testimonial, a case study — it is written in the author's register, not the person's. Real people describe their situation from the inside. They don't explain themselves clinically, use the language of the argument, or present their experience as a tidy illustration of a point.
+
+**Authorial voice** does the systemic, structural work — statistics, context, argument.
+**Subject voice** does the emotional, textural work — specific details, incomplete logic, their own language.
+
+**Do not mix them.**
+
+**Before (testimonial written in authorial register):**
+> "Since finding Famasi, managing my father's medications has become significantly more manageable, allowing me to focus on other aspects of caregiving."
+
+**After (written in a real person's register):**
+> "I stopped counting how many times I called the pharmacy in a week. Now I don't have to."
+
+---
+
+**Rule:** Real people describe outcomes, not brand names.
+> ❌ "Since I found Famasi, everything changed."
+> ✅ "Since I stopped doing the hospital runs myself, I have Wednesday afternoons back."
+
+**Rule:** Real people use incomplete logic.
+> ❌ "The decision was made for me by cultural expectation."
+> ✅ "It wasn't even a conversation. I just started going."
+
+---
+
+### 40. Benefit-Led, Not Brand-Led Product Integration
+
+**Problem:** The product or brand enters the copy through its name rather than through what it changes for the person. Real customers don't describe their lives in terms of products. They describe them in terms of what shifted.
+
+**Rule:** Let the benefit carry the implicit argument. The reader connects the product to the outcome without being told to.
+
+**Before:**
+> Since I started using Famasi, my life got easier.
+
+**After:**
+> Since the refills started arriving at the door, I stopped losing track of which prescription ran out.
+
+---
+
+**Before (landing page):**
+> Famasi is Nigeria's leading medication management platform.
+
+**After:**
+> Your medications arrive before they run out. Your refills sync to one date. Your family can see the care plan without calling you first.
+
+---
+
+**Before (email CTA):**
+> Sign up for Famasi today and take control of your caregiving.
+
+**After:**
+> Set up home delivery once, and the monthly pharmacy run stops being your problem.
+
+---
+
+### 41. Direct Witness, Not Cheerleader
+
+**Problem:** Generic celebration of an idea of a person rather than documentation of a specific person's specific experience. Celebration without specificity is noise. The reader should think "how did they know?" not "that's nice."
+
+**Rule:** Write toward recognition, not inspiration. Recognition is for the subject. Inspiration is for the reader. Recognition is harder to write and more powerful when you get it right.
+
+**Before:**
+> This Women's Day, we celebrate the incredible strength and resilience of women everywhere who give so much of themselves to care for the people they love.
+
+**After:**
+> She confirmed the medication was taken at 6am, answered three calls from the doctor's office before 9, transferred money for the hospital bill during her lunch break, and opened her laptop for a meeting at 3pm. Nobody asked how she was doing. This is for her.
+
+---
+
+**Rule:** The texture is what makes it real. Not "she sacrificed" but the 6am bus, the three medication schedules in her head, the doctor's appointment she rescheduled four times.
+
+---
+
+### 42. Functional, Not Performative Close
+
+**Problem:** The closing of an email, blog, or social post stacks multiple jobs — theme explanation, celebration line, CTA, PS — each element competing with the others. AI closes by wrapping everything up. Human writing closes by landing one thing cleanly.
+
+**Rule:** The close does one job. Every element that competes with that job should be removed or moved.
+
+**Correct order for a closing sequence:**
+1. One honest, earned line — the emotional or argumentative conclusion
+2. One transitional line that moves toward the CTA without forcing it
+3. CTA that feels like a next step, not a push
+4. PS that bridges to the next piece of content — one sentence only
+
+**Before:**
+> That is what caregiving really means. We celebrate every caregiver this Women's Day. To learn more about how Famasi supports caregivers like you, visit our website. And don't forget to share this with someone who needs to hear it. PS: Tomorrow we'll share five tips for managing medication remotely.
+
+**After:**
+> You are allowed to still be a person inside this role.
+>
+> For caregivers managing medications in Nigeria — in the same city or a different country — Famasi exists to take the medication burden off your plate so your energy goes to the parts of caring that only you can do.
+>
+> → [See how Famasi works]
+
+---
+
+**Rule:** "We see you" only earns its place if the preceding copy has actually seen the person. Don't write it unless the content has done the work.
+
+---
+
+## HEADLINE PATTERNS
+
+---
+
+### 43. Writer-Serving Headlines
+
+**Problem:** A headline is poetic, clever, or internally meaningful to the author, but opaque to the reader. The reader must enter the section before understanding what it is about. Writer-serving headlines fail at the job headlines exist to do — communicate to a stranger in one line.
+
+**Checklist — every headline must pass all five:**
+- Does the reader know what this section is about before entering it?
+- Does it speak to the reader's situation, not the writer's concept?
+- Is it specific enough that it would mean something out of context?
+- Could it stand alone as a complete thought?
+- Would a stranger scrolling past understand why it is relevant to them?
+
+**Before → After:**
+
+| Writer-serving | Reader-serving |
+|---|---|
+| The weight before the name | When did someone last check on you? |
+| The grief that has no occasion | You can grieve someone who is still in the room |
+| The family myth | Why you're alone in a room full of family |
+| What burnout actually looks like | The signs of burnout that don't look like burnout |
+| The diaspora caregiver | Managing a parent's illness from 5,000 miles away |
+| After | What nobody tells you about when it ends |
+| You are also someone's someone | The second patient |
+
+---
+
+**Weak headline patterns to avoid:**
+- Single vague word: "After", "Context", "Overview", "Background"
+- Poetic phrase requiring context: "The weight before the name"
+- Neutral topic label: "The diaspora caregiver", "Introduction"
+- Yes/no question: "Are you a caregiver?" (reader answers and stops reading)
+
+**Strong headline patterns:**
+- Counterintuitive claim: "You can grieve someone who is still in the room"
+- Direct question naming the reader's exact experience: "When did someone last check on you?"
+- Specific reader situation: "Managing a parent's illness from 5,000 miles away"
+- Named paradox: "Why you're alone in a room full of family"
+- Knowledge gap: "What nobody tells you about when it ends"
+
+---
+
+### 44. Email Subject Lines as Headlines
+
+**Problem:** Email subject lines are treated as labels rather than hooks. They describe the email's contents instead of giving the reader a reason to open it.
+
+**Same rules as section headlines apply, plus:**
+
+**Rule:** The subject line should create a gap the reader wants to close — a question they want answered, a statement that surprises them, or a situation they recognise.
+
+**Before:**
+> Women's Day Newsletter — Famasi Celebrates Caregivers
+
+**After:**
+> She confirmed the medication. Then opened her laptop. Nobody asked how she was doing.
+
+---
+
+**Before:**
+> Monthly Update — March 2026
+
+**After:**
+> The one thing that changed everything for caregivers this month
+
+---
+
+**Before:**
+> Learn more about our new delivery service
+
+**After:**
+> The monthly pharmacy run just became optional
+
+---
+
+**Applies to:** email subject lines, social post first lines, push notification copy, SMS hooks
+
+---
+
 ## Process
 
 1. Read the input text carefully
 2. Identify all instances of the patterns above
 3. Rewrite each problematic section
 4. Ensure the revised text:
+   - Has no fragment sentences — every sentence has a subject and a verb doing real work
+   - Has no throat-clearing — every opener starts with the substance, not the announcement of it
+   - Has no stutter sentences — consecutive short sentences say different things
+   - Has no negative parallelisms — states what things ARE, not what they are not
+   - Labels nothing without explaining what is inside the label
+   - Follows every statistic with an explanation of what it means or why it happened
+   - Has headlines that communicate to a stranger before they enter the section
+   - Has a close that does one job
    - Sounds natural when read aloud
    - Varies sentence structure naturally
    - Uses specific details over vague claims
