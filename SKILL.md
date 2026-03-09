@@ -657,7 +657,7 @@ Negative parallelism across two sentences:
 > Our churn rate is 12%. We need to address this urgently.
 
 **After:**
-> Our churn rate is 12% — three points above target — driven primarily by customers who never completed onboarding in their first two weeks.
+> Our churn rate is 12%, three points above target, driven primarily by customers who never completed onboarding in their first two weeks.
 
 ---
 
@@ -665,7 +665,7 @@ Negative parallelism across two sentences:
 > 67% of caregivers in Nigeria are women.
 
 **After:**
-> 67% of caregivers carrying the highest burden in Nigeria are women — assigned the role by a family that decided they were most available, without being asked.
+> 67% of caregivers carrying the highest burden in Nigeria are women who were assigned the role by a family that decided they were most available, without being asked.
 
 ---
 
@@ -709,7 +709,7 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 > Since switching to Famasi, everything about managing his medications became easy.
 
 **After:**
-> Since switching to Famasi, the monthly pharmacy run stopped being her problem. That's one less thing to hold in her head.
+> Since switching to Famasi, the monthly pharmacy run stopped being her problem.
 
 ---
 
@@ -758,7 +758,7 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 > *(All short. Nothing lands harder than anything else.)*
 
 **After:**
-> Let the systemic explanation breathe — it needs length to earn the reader's trust. Let Elizabeth's voice be specific and textured — that's where the emotional weight lives. Let the close be short, because by then the reader should already feel it.
+> Let the systemic explanation breathe: it needs length to earn the reader's trust. Let Elizabeth's voice be specific and textured: that's where the emotional weight lives. Let the close be short, because by then the reader should already feel it.
 
 ---
 
@@ -777,7 +777,7 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 **After — TAS:**
 > Luisa is the strong one — the sister who carries donkeys, moves bridges, and absorbs everyone's problems without complaint. The family knows who to call when something needs handling, and she answers every time. *(Thesis)*
 >
-> Then she starts losing her powers. Not dramatically, but quietly. She keeps showing up, keeps performing, keeps acting like nothing has changed, even as she runs completely empty and still answers every call. *(Antithesis)*
+> Then, quietly, she starts losing her powers. She keeps showing up, keeps performing, keeps acting like nothing has changed, even as she runs completely empty and still answers every call. *(Antithesis)*
 >
 > If any of that landed somewhere in your chest, this piece is written for you. *(Synthesis)*
 
@@ -1118,7 +1118,7 @@ Provide:
 - The closer leans a touch slogan-y ("If you do not have tests...") rather than sounding like a person talking.
 
 **Now make it not obviously AI generated.**
-> AI coding assistants can make you faster at the boring parts. Not everything. Definitely not architecture.
+> AI coding assistants can make you faster at the boring parts. They won't help much with architecture.
 >
 > They're great at boilerplate: config files, test scaffolding, repetitive refactors. They're also great at sounding right while being wrong. I've accepted suggestions that compiled, passed lint, and still missed the point because I stopped paying attention.
 >
