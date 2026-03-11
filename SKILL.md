@@ -1,18 +1,21 @@
 ---
 name: humanizer
-version: 3.1.0
+version: 3.2.0
 description: |
   Remove signs of AI-generated writing from text. Use when editing or reviewing
   text to make it sound more natural and human-written. Based on Wikipedia's
   comprehensive "Signs of AI writing" guide and real-world copy editing standards.
   Detects and fixes patterns including: inflated symbolism, promotional language,
-  superficial -ing analyses, vague attributions, em dash overuse, rule of three,
-  AI vocabulary words, negative parallelisms, fragment sentences, throat-clearing,
-  stutter sentences, labels without content, stats without explanation,
-  nominalization, passive voice avoiding agency, adverb intensifier stacking,
-  unearned intimacy, journey/navigate/landscape metaphors, over-explained
-  transitions, participial appositives, and writer-serving headlines. Applies to
-  blogs, emails, social media, landing pages, and all marketing copy.
+  superficial -ing analyses, vague attributions, em dash overuse (incl. in
+  conditional headlines), rule of three, AI vocabulary words, negative parallelisms,
+  fragment sentences, throat-clearing, stutter sentences, labels without content
+  (incl. labelling the type of claim), stats without explanation, nominalization,
+  passive voice avoiding agency, adverb intensifier stacking, unearned intimacy
+  (incl. forced possessive personalisation), journey/navigate/landscape metaphors,
+  over-explained transitions, participial appositives, writer-serving headlines,
+  colon stacking, clarity-over-cleverness failures, audience label overuse,
+  missing connective logic in transitions, and engagement-bait blog titles.
+  Applies to blogs, emails, social media, landing pages, and all marketing copy.
 allowed-tools:
   - Read
   - Write
@@ -248,6 +251,17 @@ Avoiding AI patterns is only half the job. Sterile, voiceless writing is just as
 
 **After:**
 > The term is primarily promoted by Dutch institutions, not by the people themselves. You don't say "Netherlands, Europe" as an address, yet this mislabeling continues in official documents.
+
+---
+
+**Special case — em dash in conditional headlines:**
+An em dash in a conditional construction ("If X — what to do") weakens the framing by dangling the consequence instead of completing the sentence. Use a comma and complete the conditional.
+
+**Before:**
+> "If you just found out they've been skipping — what to do today"
+
+**After:**
+> "If you just found out they've been skipping, here's what to do today"
 
 ---
 
@@ -640,6 +654,16 @@ Negative parallelism across two sentences:
 
 **After:**
 > We have a three-step process: the request goes to [X], [X] reviews within 48 hours, and you receive confirmation by email.
+
+---
+
+**Sub-pattern: labelling the type of claim before making it.** A sentence that names the category of the information to follow — "The consequences are clinical, not abstract:" or "This is systemic, not personal:" — is a label without the content. Delete the category label and make the claim directly.
+
+**Before:**
+> The consequences are clinical, not abstract: missed doses cause resistance, hospitalisation, and worse outcomes.
+
+**After:**
+> Missed doses cause resistance, hospitalisation, and worse outcomes — these are measurable, documented consequences, not a caregiver's anxiety.
 
 ---
 
@@ -1053,7 +1077,7 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 
 ## ADDITIONAL PATTERNS
 
-The following patterns supplement the sections above. Each is numbered to continue the sequence (45–51) and named as a standalone rule — no assumption about existing knowledge required.
+The following patterns supplement the sections above. Each is numbered to continue the sequence (45–56) and named as a standalone rule — no assumption about existing knowledge required.
 
 ---
 
@@ -1279,6 +1303,16 @@ The following patterns supplement the sections above. Each is numbered to contin
 
 ---
 
+**Sub-pattern: forced possessive personalisation.** Repeated use of "your parent," "your patient," "your care recipient" in opening sentences and throughout a piece is a form of unearned intimacy — it assumes a specific relationship rather than addressing the reader directly. Once established, the possessive feels laboured. Use "them," "the person," or restructure around the reader ("you") instead.
+
+**Before:**
+> Your parent may be skipping doses. Your parent's doctor may not know. When your parent runs out, the consequences compound quickly.
+
+**After:**
+> If they're skipping doses, the doctor is probably the last to know. By the time the supply runs out, the consequences have already started.
+
+---
+
 **Applies to:** blog openers, email intros, social hooks, testimonial copy — anywhere the writer attempts to connect by assuming rather than showing
 
 ---
@@ -1371,11 +1405,480 @@ The following patterns supplement the sections above. Each is numbered to contin
 
 ---
 
+### 52. Colon Stacking
+
+**Problem:** Two or more colons appearing in the same sentence, paragraph, or short passage create reading friction. Each colon tells the reader a list or explanation is coming — when two arrive close together, the reader must track multiple open structures at once. The result is a passage that feels crowded and mechanical.
+
+**Rule:** One colon per paragraph. If a second colon is needed in the same passage, replace it with a comma, a full stop, or rewrite the sentence to remove the list structure.
+
+**Before:**
+> In Nigeria: call 112 or go directly to the nearest hospital. Message your Care Specialist on the way: they can coordinate with the hospital and help move admission along.
+
+**After:**
+> In Nigeria, call 112 or go directly to the nearest hospital. Message your Care Specialist on the way — they can coordinate with the hospital and help move admission along.
+
+Or, separating the two instructions into distinct sentences:
+> Message your Care Specialist on the way. They can coordinate with the hospital, share your parent's full medication history, and help move admission along so you're not starting from scratch at the queue. If you're in Nigeria, call 112 or take them directly to the nearest hospital with an emergency unit.
+
+---
+
+**Before (email):**
+> Here's what you need to know: the deadline has moved. Our new timeline: March 31st.
+
+**After:**
+> The deadline has moved to March 31st.
+
+---
+
+**Applies to:** all copy — colons are not wrong, but two colons in one paragraph is always a structural problem
+
+---
+
+### 53. Clarity Over Cleverness
+
+**Problem:** A sentence reaches for a construction that sounds sharp or sophisticated but obscures what it is actually saying. The writer prioritises the effect of the sentence over its meaning. The reader must do extra work to decode what could have been said plainly.
+
+**Test:** If removing a sentence and replacing it with a plain statement of the same fact loses nothing, the original was trying to sound smart instead of being clear.
+
+**Rule:** Say the thing. Not something smart about the thing.
+
+**Before:**
+> What comes next handles every week after that.
+
+**After:**
+> Set this up once and your refills are managed from that point on.
+
+---
+
+**Before:**
+> Consistency isn't the casualty — the system around it is.
+
+**After:**
+> People don't skip because they're careless. They skip because the system makes consistency harder than it should be.
+
+---
+
+**Before (email):**
+> The gap between intention and action is where our product lives.
+
+**After:**
+> Most people intend to refill their medications on time. Our product handles the gap between intending to and actually doing it.
+
+---
+
+**Before (landing page):**
+> The pharmacy isn't the bottleneck. Distance is.
+
+**After:**
+> The problem isn't that good pharmacies don't exist. The problem is that your parent doesn't live next to one.
+
+---
+
+**Applies to:** headlines, section openers, closing lines, product descriptions — anywhere clever construction tempts the writer away from a plain statement
+
+---
+
+### 54. Audience Label Overuse
+
+**Problem:** A piece repeatedly names the audience as a label — "diaspora caregiver," "business owner," "new parent" — when the pronoun "you" would work. The label signals the reader's identity but also distances: it turns the reader into a type rather than a person being addressed. Once the audience is established, the pronoun does the job more naturally.
+
+**Rule:** Establish the audience once, early. After that, "you" and "your" are almost always cleaner. Return to the label only when the distinction genuinely matters (e.g., distinguishing "the caregiver" from "the patient" when both are present in the same sentence).
+
+**Before:**
+> Diaspora caregivers face a specific problem. The diaspora caregiver can't be present at every appointment. When the diaspora caregiver finds out about a medication change, it's usually too late.
+
+**After:**
+> If you're managing a parent's health from abroad, you can't be present at every appointment. By the time you find out about a medication change, it's usually too late.
+
+---
+
+**Before (blog):**
+> The diaspora caregiver often feels guilt. The diaspora caregiver carries more weight than is visible to others. What the diaspora caregiver needs isn't more advice — it's infrastructure.
+
+**After:**
+> You carry more than is visible. The guilt is real, and so is the distance. What you need isn't more advice — it's infrastructure.
+
+---
+
+**Rule:** When a possessive label like "your parent," "your patient," or "your team" appears repeatedly, replace most instances with "them," "they," or "the person" after first use.
+
+---
+
+**Applies to:** blogs, emails, social posts — any piece written for a defined audience where the label appears more than once
+
+---
+
+### 55. Transition Quality: Connective Logic
+
+**Problem:** P51 addresses over-explained transitions — sentences that announce a shift without making one. This pattern addresses the opposite failure: a transition that jumps between two ideas without supplying the logic that connects them. The reader can follow the sequence but cannot see why A leads to B.
+
+**Rule:** A transition does not need to be named. It does need to carry the logical step that moves the reader from the previous idea to the next. If that step is missing, the reader feels the gap even if they can't name it.
+
+**The test:** Remove the transition. If the connection between the two paragraphs is still clear, the transition was probably over-explained (P51). If the connection becomes unclear, the transition was doing real work — but may need to do it more efficiently.
+
+**What good connective logic looks like:**
+- Naming the implication of the previous idea before introducing the next
+- Acknowledging the objection the reader is likely forming before addressing it
+- Stating a contrasting fact that reframes what was just said
+- Supplying a "this is why" or "but here's the catch" that earns the move to the next point
+
+**Before (missing the logical step):**
+> People skip their medications because of cost, distance, and habit. There are tools available to help.
+
+*(The gap: why don't the existing tools work? The jump is too fast.)*
+
+**After:**
+> People skip their medications because of cost, distance, and habit. Most of the tools designed to help assume the patient is managing their own medication. In Nigeria, they rarely are.
+
+---
+
+**Before (blog section transition):**
+> Most caregivers report some level of burnout.
+>
+> Here are the systems that help.
+
+*(The gap: what's the link between burnout and systems? Why do systems help?)*
+
+**After:**
+> Most caregivers report some level of burnout — not because they lack commitment but because consistency depends on a system and they have been carrying it alone. Shared tools don't reduce love. They reduce load.
+
+---
+
+**Before (email):**
+> Managing medication remotely is hard.
+>
+> Famasi makes it easier.
+
+**After:**
+> Managing medication remotely is hard because you can't see when she's running low and you can't control when she goes to the pharmacy. Famasi handles both.
+
+---
+
+**Rule:** Never assume the logical connection is obvious to the reader. Name it. Then move.
+
+**Applies to:** blog section transitions, email body paragraphs, LinkedIn posts, landing page copy — anywhere two ideas follow each other and the "why" is missing
+
+---
+
+### 56. Utility-First Headlines (Blog and Article Titles)
+
+**Problem:** AI defaults to engagement-bait titles that promise a story about how an insight was found, rather than directly answering the question the reader is already asking. These titles prioritise intrigue over clarity. A reader searching for an answer skips them because the title doesn't signal the answer is inside.
+
+**The two modes:**
+
+- **Engagement-bait:** "The Real Cost of Missing Refills" / "Here's What 10,000 Orders Taught Us About Why Nigerians Miss Their Medications"
+- **Utility-first:** "What Happens When You Miss Your Medication Refills" / "The Consequences of Stopping Your Medication Early"
+
+The distinction: engagement-bait promises a story or a speaker's discovery. Utility-first promises the answer to a question the reader is already asking.
+
+**Rule:** Write the title the reader would type into a search bar, then refine it. Do not write the title a journalist or content marketer would pitch at an editorial meeting.
+
+**Before:**
+> The Real Cost of Missing Refills
+
+**After:**
+> What Happens When You Miss Your Medication Refills
+
+---
+
+**Before:**
+> Here's What 10,000 Orders Taught Us About Why Nigerians Miss Their Medications
+
+**After:**
+> Why Nigerians Miss Their Medication (And What the Data Shows)
+
+---
+
+**Before:**
+> The Caregiver's Hidden Burden
+
+**After:**
+> What Caregivers Actually Deal With That Nobody Talks About
+
+---
+
+**Utility-first patterns that work:**
+- "What happens when you [action]"
+- "Why [problem] — and what to do about it"
+- "[Number] things that happen when [situation]"
+- "If [specific situation], here's what that means for [consequence]"
+- "The consequences of [action most readers have taken or avoided"
+
+**Engagement-bait patterns to avoid:**
+- "The real cost of..."
+- "What [number] [things/orders/patients] taught us about..."
+- "The hidden [noun]"
+- "[Name]'s secret to..."
+- Vague teaser frames that could apply to any topic
+
+**Note:** This pattern applies to article/blog titles specifically. Section headlines within a piece follow P43 (writer-serving vs. reader-serving). Both rules apply simultaneously — the title must pass P56 *and* P43.
+
+---
+
+**Applies to:** blog titles, article headlines, email subject lines, social post hooks — wherever the title is the first thing a reader sees before deciding whether to engage
+
+---
+
+## Famasi brand voice
+
+Apply this section when writing any content for Famasi Africa or any of its products and sub-brands. These are the voice and structural principles that hold across all contexts — Famasi Go, August, Dispensary, Prescribe, or any future brand. Product-specific details (audience, features, mechanisms, use cases) will vary by brand, but the principles below do not.
+
+**Voice:**
+- Authority-led. Content establishes a clear point of view on how something works — not just what it feels like. The reader comes away understanding something they did not fully understand before.
+- Plain language. Grade 5–6 reading level. Short sentences. Active verbs. Specificity over vagueness.
+- Research and observation over fabricated narrative. Write from what is true and defensible, not from invented scenes.
+- No launch language. All Famasi products are live and selling. "Now available", "We're excited to introduce", "Coming soon" are wrong for any brand.
+- No journey / navigate / landscape / ecosystem metaphors (P50).
+
+**The authority principle:**
+Every piece of Famasi content should make the reader feel that the writer understands the problem better than they do. This is earned through mechanism — explaining the real structural cause of a problem, not just restating the symptom. When the mechanism is right and specific, authority follows without being claimed.
+
+**Stories and testimonials:**
+Real stories go inside the content as supporting material — never as the opening. They reinforce the argument; they do not make it.
+
+This applies to blog posts as well as LinkedIn: the story should be within the post, not be the post itself. A piece that opens with a character, follows that character through the whole argument, and closes with their outcome is a story. Famasi content is not stories — it is argument and mechanism that may use a real person's experience to illustrate a point.
+
+If a real testimonial exists, embed it as a quote after the mechanism has been established.
+
+If no real testimonial exists, use observational third-person to illustrate the mechanism ("A patient goes when she's on her last tablet") — this is observation, not fabricated narrative. Do not invent named characters or specific scenes.
+
+---
+
+## Platform playbooks
+
+When content is requested for a specific platform, apply the relevant playbook first, then run the full humanizer pattern check. The structures below apply across all Famasi brands. The examples use Famasi Go (medication delivery) to illustrate each principle — substitute the relevant product, audience, and mechanism for other brands.
+
+---
+
+### LinkedIn
+
+LinkedIn posts work when they establish authority through a clear mechanism or counterintuitive insight. The reader comes away understanding something they didn't fully understand before. This is the authority move — not storytelling, not inspiration.
+
+**Hook (lines 1–2, visible before "see more"):**
+- Open with: a counterintuitive perspective, a named mechanism, or a research-based claim
+- NOT: a fabricated scene, a hypothetical character, "POV:" framing, or a throat-clearing announcement (P26, P29)
+- The reader must know what the post is about AND why it matters before clicking "see more"
+
+**Post arc:**
+1. **Hook** — counterintuitive perspective or named mechanism
+2. **Mechanism** — what is actually happening and why. Specific and factually defensible.
+3. **Failed solutions** (optional) — what the reader typically tries and why it doesn't work. Builds identification without unearned intimacy (P49).
+4. **Insight** — one or two sentences naming the real nature of the problem (e.g., "This is a coordination failure, not a supply failure.")
+5. **Bridge** — how the product solves it. Benefit-led, not brand-led (P40). Lead with what stops being the reader's problem.
+6. **CTA** — one sentence, one link. No stacked CTAs. No "share this with someone who needs it."
+
+**Format:**
+- Use "---" section breaks between major beats
+- No bold headers with colons (P34)
+- No numbered lists (save for Twitter threads)
+- No performative close ("We see you", "You're not alone")
+- Length: 300–500 words
+
+**Reference example — Famasi Go, BP medication stock-out post (illustrates the arc and tone):**
+> The stock-out problem at Nigerian pharmacies isn't primarily a supply problem.
+>
+> It's a system design problem, and most of what diaspora families do when it happens makes no real difference. Here's why.
+>
+> Nigerian community pharmacies work on walk-in demand. No pre-orders, almost no reservation for specific patients. They reorder when stock is depleted, not before, to avoid losing capital, except when the medication is a clear fast mover.
+>
+> In a lot of cases, between the reorder and the next delivery, the shelf sits empty. And because most BP medications are imported, a single supply chain gap can clear a specific brand from multiple pharmacies at once.
+>
+> A patient goes when she's on her last tablet because that's when it feels urgent, but the shelf is already empty. What then happens? The pharmacist substitutes: different brand, sometimes different formulation, different release rate. The family finds out two weeks later, if at all.
+>
+> From abroad, the instinct is to send money, call the pharmacy directly, or ask a relative to go check. None of these touch the actual problem: there is no infrastructure for managing someone's chronic medication remotely. No way to know she's running low before she's already out.
+>
+> This is a coordination failure, not a supply failure. Unfortunately, money and phone calls don't change the structure.
+>
+> Famasi Go was built for this gap.
+>
+> Delivery before she runs out. Her brand, her dose, to her door. The monthly pharmacy run stops being anyone's emergency.
+>
+> If you're managing a parent's health in Nigeria from the UK, US, Canada, or anywhere else outside Nigeria, get early access to Famasi Go: [link]
+
+---
+
+### Twitter / X
+
+**Standalone tweets:**
+Three valid formats — use the one that fits the content:
+1. **Research/fact opener** — a stat or finding followed by its surprising implication
+2. **Single-line curiosity gap** — one line that withholds the "why" or "what", pulling the reader into a thread or reply
+3. **Plain narrative** — one clear, specific observation with no framing device
+
+Do not use:
+- "POV:" framing
+- Bullet lists with → arrows
+- Em dash at end of hook line to introduce a bullet list
+
+**Thread structure (Joey Yochheim mechanics):**
+- Tweet 1: Counterintuitive rule or claim — the hook. Withholds the "how."
+- Tweets 2–N: The mechanism, one piece per tweet. Every tweet ends with forward momentum.
+- Final tweet: Synthesis or CTA — what to do with the information.
+- Every tweet must stand alone AND pull the reader to the next.
+
+**Format:**
+- No bold text
+- No emojis as bullet substitutes
+- Keep tweet count to what the content earns — do not pad
+
+---
+
+### Instagram captions
+
+**Hook line (visible before "more"):**
+- 1–2 lines that stop the scroll — a specific claim, a question that names the exact experience, or a counterintuitive observation
+- No fabricated story openers
+- No "POV:" framing
+
+**Body:**
+- 50–100 words maximum
+- Plain, punchy, short sentences
+- One idea, one mechanism, one action
+
+**CTA:**
+- "Link in bio" or direct instruction — one sentence
+
+**Hashtags:**
+- At the end, not embedded in copy
+
+---
+
+### Carousels (Instagram / LinkedIn)
+
+Carousels work when each slide has one job and does it completely. The reader should feel tension building through Slides 1–4, resolved in Slide 5. If a slide does not compel the swipe to the next one, it is doing the wrong job.
+
+**Copy rules (all slides):**
+- 2–4 lines maximum per slide
+- Grade 5 reading level
+- One idea per slide
+- Active verbs — no nominalization (P46)
+- No bold headers with colons (P34)
+
+---
+
+**Slide 1 — Hook**
+
+The hook earns the swipe. The reader decides in 1–2 seconds whether this carousel is for them. A flat result statement does not earn the swipe. A curiosity gap does.
+
+Choose one formula. Do not blend them.
+
+*Formula A — Achievability*
+Structure: It is possible to [dream result] while [relatable constraint] — without [painful method they've tried].
+When to use: when the result seems impossible given the reader's specific situation. The constraint is what creates the tension — without it, the slide is just a claim.
+Example: Your mum in Lagos hasn't missed a BP dose in 6 months. You've been in London the whole time.
+
+*Formula B — Identity + Pain*
+Structure: If you are [specific identity] and you want to never [specific painful problem] again — this is for you.
+When to use: when the audience is highly specific and the pain is immediately recognisable. No curiosity gap needed — identification does the work. The more specific the identity and pain, the stronger the self-selection.
+Example: If you're managing a parent's BP medication from abroad and you're tired of finding out she switched brands — this is for you.
+
+*Formula C — Knowledge gap*
+Structure: Everyone tells you [common advice]. Nobody tells you [why it fails / what actually works].
+When to use: when there is a widely-held belief that is incomplete or wrong. Best for research or mechanism-based content where authority comes from correcting a misconception.
+Example: Everyone tells you to send money when your mum runs out of medication. Nobody tells you why it still doesn't work.
+
+*Formula D — First-person scenario*
+Structure: If I woke up [specific painful situation] tomorrow and wanted [dream result] by [time frame], here's exactly what I'd do.
+When to use: when establishing expert credibility and making a tactical promise. The situation must be specific enough to feel real — vague scenarios signal no real experience behind them.
+Example: If my mum texted me tomorrow that she was out of her BP medication and I was in Canada — here's exactly how I'd make sure it never happened again.
+
+**Hook angle** — assign one per carousel, do not repeat across templates:
+- Mental load removed
+- Consistency / brand reliability
+- Research or data angle
+- Time saved
+- System reliability / proof of outcome
+
+**Swipe mechanic:** the reader must be asking "how?" or "is that actually possible?" or "that's exactly me" before the next slide loads. If none of those three responses are plausible, rewrite the hook.
+
+---
+
+**Slide 2 — Reality**
+
+Show you understand the problem better than the reader does. Do not describe the symptom — name the real situation underneath it. The goal is trust and identification. The reader should feel seen, not lectured.
+
+What this slide does:
+- Reframes the problem from symptom to cause. Not "she keeps running out" but "nobody in the system holds the refill timing."
+- Makes the reader less defensive — it is not their failure, it is how the system works
+- Establishes that you know this situation from the inside, earning the credibility needed for Slide 3
+
+What this slide does NOT do:
+- Introduce the solution
+- Add urgency or guilt
+
+**Swipe mechanic:** the reader recognises the situation and wants to know why it keeps happening.
+
+Example: Most people find out there's a problem when she texts. By then, she's already on a substitute. Not because anyone was careless — because Nigerian pharmacies work on walk-in demand. No pre-orders. No reservation. The pharmacist doesn't know she's coming.
+
+---
+
+**Slide 3 — Mechanism**
+
+Name why the problem keeps happening despite the reader's best efforts. This is the authority slide. You give the reader language for something they have experienced but could not explain. The mechanism must be specific and factually defensible — vague or invented claims here destroy credibility at the most important moment.
+
+What this slide does:
+- Explains the structural or systemic cause, not just the outcome
+- Uses specificity to signal credibility — named processes, real dynamics
+- Makes the reader feel the problem is solvable, because it has a cause and causes can be addressed
+
+What this slide does NOT do:
+- Introduce the solution yet
+- Use invented data or claims that cannot be defended (see Famasi brand context)
+
+**Swipe mechanic:** the reader now understands the cause and wants to know how to break the cycle.
+
+Example: She waits until she's on her last tablet because that's when it feels urgent. The pharmacy reorders when stock runs low, not before. Those two timings almost never line up. When her brand is out, the pharmacist substitutes. Different formulation. Her BP shifts. You find out weeks later.
+
+---
+
+**Slide 4 — Shift**
+
+Introduce the logic that makes the solution obvious — without naming the solution yet. Change how the reader thinks about the problem, not what they do about it. By the end of Slide 4, the reader should be able to almost predict what Slide 5 will say. If they can, the slide has done its job.
+
+What this slide does:
+- Pivots from "here is why it happens" to "here is what changes the equation"
+- Names the key insight or principle that makes the solution work
+- Creates anticipation for Slide 5 — the solution feels inevitable, not pitched
+
+What this slide does NOT do:
+- Name the product or brand
+- Give the full solution — that belongs on Slide 5 where it lands with full weight
+
+**Swipe mechanic:** the reader sees the logic of the solution and wants to see it applied.
+
+Example: The fix isn't calling more often or sending more money. It's changing who holds the refill timing. When delivery is scheduled before she runs out — not after — the pharmacy's stock levels stop being her problem.
+
+---
+
+**Slide 5 — Payoff + CTA**
+
+Deliver the solution. It should feel earned, not pitched. The reader has followed the argument through four slides — the CTA is a natural next step, not a push. The payoff resolves the tension the hook created. The CTA gives one action.
+
+What this slide does:
+- Names the solution clearly and specifically, benefit-led not brand-led (P40)
+- Resolves the tension from Slide 1 — the hook promised something, this delivers it
+- Gives one action with one link
+
+What this slide does NOT do:
+- Introduce new information — everything here should feel like the answer the previous slides were building toward
+- Stack multiple CTAs
+- End with a celebration or empathy line ("we see you", "you're not alone")
+
+**CTA rules:**
+- One sentence, one link
+- Address the specific reader from the hook: "If you're in the UK managing a parent's health in Nigeria..."
+- Describe the action, not the brand: "get early access" not "visit Famasi"
+
+Example: Famasi Go schedules delivery before she runs out. Her brand, her dose, to her door. The monthly pharmacy run stops being anyone's emergency. Get early access: [link]
+
+---
+
 ## Process
 
 1. Read the input text carefully
-2. Identify all instances of the patterns above
-3. Rewrite each problematic section
+2. **If writing for Famasi:** identify the platform (LinkedIn, Twitter/X, Instagram, Carousel) and apply the relevant playbook from the Platform playbooks section before anything else. Structure must be right before language is cleaned.
+3. Identify all instances of the patterns above
+4. Rewrite each problematic section
 4. Ensure the revised text:
    - Has no fragment sentences — every sentence has a subject and a verb doing real work (P25)
    - Has no throat-clearing — every opener starts with the substance, not the announcement of it (P26)
@@ -1391,8 +1894,12 @@ The following patterns supplement the sections above. Each is numbered to contin
    - Uses no adverb intensifiers — specific claims or consequences replace vague emphasis (P48)
    - Shows the reader's situation rather than naming their assumed inner state (P49)
    - Uses no journey / navigate / landscape metaphors — states what is actually happening (P50)
-   - Transitions by opening the next thing, not by announcing that a transition is happening (P51)
+   - Transitions by opening the next thing, not by announcing that a transition is happening (P51); where a logical connection between ideas is missing, supplies it explicitly (P55)
    - Uses relative clauses (who/which/that + verb) rather than em dash + participial for noun modification (P45)
+   - Has no more than one colon per paragraph — stacked colons in a single passage are replaced with commas or full stops (P52)
+   - Says the thing directly rather than constructing something smart about it (P53)
+   - Uses "you" after establishing the audience, not a repeated label — "diaspora caregiver," "business owner," "your parent" do not appear more than necessary (P54)
+   - Has blog/article titles that answer the question the reader is already asking, not titles that promise to reveal how the answer was found (P56)
    - Sounds natural when read aloud
    - Varies sentence structure naturally
    - Uses specific details over vague claims
