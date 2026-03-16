@@ -48,6 +48,7 @@ Returns a pass/fail per principle with a one-line fix direction. No rewrites —
 ## References
 
 - [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)
+- [blader/humanizer](https://github.com/blader/humanizer) — original humanizer skill
 
 ## Version History
 
