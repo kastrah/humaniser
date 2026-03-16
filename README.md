@@ -64,3 +64,7 @@ Returns a pass/fail per principle with a one-line fix direction. No rewrites —
 ## Licence
 
 MIT
+
+## Attribution
+
+Based on [blader/humanizer](https://github.com/blader/humanizer). If you only need the humaniser without Messaging Review, the original skill is available there.
