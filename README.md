@@ -68,4 +68,4 @@ MIT
 
 ## Attribution
 
-Based on [blader/humanizer](https://github.com/blader/humanizer). If you only need the humaniser without Messaging Review, the original skill is available there.
+Based on [blader/humanizer](https://github.com/blader/humanizer). The original skill covers the Wikipedia AI writing specifications only.
