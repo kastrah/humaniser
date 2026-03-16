@@ -1795,37 +1795,37 @@ The following patterns ensure copy speaks to customers' actual experiences, not 
 
 ---
 
-## Famasi brand voice
+## Brand voice
 
-Apply this section when writing any content for Famasi Africa or any of its products and sub-brands. These are the voice and structural principles that hold across all contexts — Famasi Go, August, Dispensary, Prescribe, or any future brand. Product-specific details (audience, features, mechanisms, use cases) will vary by brand, but the principles below do not.
+Apply this section when writing content for a specific brand. If the user provides brand context — name, audience, product, the problem it solves — apply these principles to that brand. If no brand context is provided, ask for it before proceeding. Product-specific details (audience, features, mechanisms, use cases) will vary by brand, but the principles below do not.
 
 **Voice:**
 - Authority-led. Content establishes a clear point of view on how something works — not just what it feels like. The reader comes away understanding something they did not fully understand before.
 - Plain language. Grade 5–6 reading level. Short sentences. Active verbs. Specificity over vagueness.
 - Research and observation over fabricated narrative. Write from what is true and defensible, not from invented scenes.
-- No launch language. All Famasi products are live and selling. "Now available", "We're excited to introduce", "Coming soon" are wrong for any brand.
+- No launch language — write as though the product is already live and in market. "Now available", "We're excited to introduce", "Coming soon" do not belong in any brand voice.
 - No journey / navigate / landscape / ecosystem metaphors (P50).
 - **Customer-validated, not system-educated.** Never write about a problem you haven't heard from customers. (P57, P63)
-- **Speak to their experience, not your understanding.** They don't care about the pharmacy shelf. They care about why their mum runs out. (P57, P61)
-- **What they want, not what you do.** Customers want "which pharmacy has it at the right price close to me" — not "real-time medication insights." (P59)
+- **Speak to their experience, not your understanding.** Write from the customer's lived situation — not from how the product or system works internally. (P57, P61)
+- **What they want, not what you do.** Lead with the outcome the customer gets, not the feature the product has. (P59)
 
 **The authority principle:**
-Every piece of Famasi content should make the reader feel that the writer understands the problem better than they do. This is earned through mechanism — explaining the real structural cause of a problem, not just restating the symptom. When the mechanism is right and specific, authority follows without being claimed.
+Every piece of content should make the reader feel that the writer understands the problem better than they do. This is earned through mechanism — explaining the real structural cause of a problem, not just restating the symptom. When the mechanism is right and specific, authority follows without being claimed.
 
 **Stories and testimonials:**
 Real stories go inside the content as supporting material — never as the opening. They reinforce the argument; they do not make it.
 
-This applies to blog posts as well as LinkedIn: the story should be within the post, not be the post itself. A piece that opens with a character, follows that character through the whole argument, and closes with their outcome is a story. Famasi content is not stories — it is argument and mechanism that may use a real person's experience to illustrate a point.
+This applies to blog posts as well as LinkedIn: the story should be within the post, not be the post itself. A piece that opens with a character, follows that character through the whole argument, and closes with their outcome is a story. Authority-led content is argument and mechanism that may use a real person's experience to illustrate a point — not the other way around.
 
 If a real testimonial exists, embed it as a quote after the mechanism has been established.
 
-If no real testimonial exists, use observational third-person to illustrate the mechanism ("A patient goes when she's on her last tablet") — this is observation, not fabricated narrative. Do not invent named characters or specific scenes.
+If no real testimonial exists, use observational third-person to illustrate the mechanism — this is observation, not fabricated narrative. Do not invent named characters or specific scenes.
 
 ---
 
 ## Platform playbooks
 
-When content is requested for a specific platform, apply the relevant playbook first, then run the full humanizer pattern check. The structures below apply across all Famasi brands. The examples use Famasi Go (medication delivery) to illustrate each principle — substitute the relevant product, audience, and mechanism for other brands.
+When content is requested for a specific platform, apply the relevant playbook first, then run the full humanizer pattern check. The examples use Famasi Go (medication delivery for diaspora caregivers) to illustrate each principle — substitute the relevant product, audience, and mechanism for the brand you are writing for.
 
 ---
 
@@ -2055,7 +2055,7 @@ Example: Famasi Go schedules delivery before she runs out. Her brand, her dose, 
 ## Process
 
 1. Read the input text carefully
-2. **If writing for Famasi:** identify the platform (LinkedIn, Twitter/X, Instagram, Carousel) and apply the relevant playbook from the Platform playbooks section before anything else. Structure must be right before language is cleaned.
+2. **If brand context is provided:** identify the platform (LinkedIn, Twitter/X, Instagram, Carousel) and apply the relevant playbook from the Platform playbooks section before anything else. Structure must be right before language is cleaned.
 3. Identify all instances of the patterns above
 4. Rewrite each problematic section
 4. Ensure the revised text:
@@ -2084,7 +2084,6 @@ Example: Famasi Go schedules delivery before she runs out. Her brand, her dose, 
    - **Benefit-led, not feature-led** — describes what customer gets, not what product does (P59)
    - **CTAs are direct and benefit-led** — no lectures, no "learn more," just what the customer wants (P60)
    - **JTBD-focused** — specific customer behaviors, not pharmacy mechanics (P61)
-   - **Diaspora context correct** — family buys locally, not money sent for medications (P62)
    - Sounds natural when read aloud
    - Varies sentence structure naturally
    - Uses specific details over vague claims
