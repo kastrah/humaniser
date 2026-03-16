@@ -1,6 +1,6 @@
 ---
 name: humanizer
-version: 3.2.0
+version: 3.3.0
 description: |
   Remove signs of AI-generated writing from text. Use when editing or reviewing
   text to make it sound more natural and human-written. Based on Wikipedia's
@@ -14,7 +14,9 @@ description: |
   (incl. forced possessive personalisation), journey/navigate/landscape metaphors,
   over-explained transitions, participial appositives, writer-serving headlines,
   colon stacking, clarity-over-cleverness failures, audience label overuse,
-  missing connective logic in transitions, and engagement-bait blog titles.
+  missing connective logic in transitions, engagement-bait blog titles,
+  customer-validated problem hooks, speak-to-not-at, feature-led vs benefit-led,
+  no-lecture CTAs, JTBD-focused behaviors, diaspora context, unsourced motivation claims.
   Applies to blogs, emails, social media, landing pages, and all marketing copy.
 allowed-tools:
   - Read
@@ -1619,6 +1621,158 @@ The distinction: engagement-bait promises a story or a speaker's discovery. Util
 
 ---
 
+## CUSTOMER-CENTRIC COMMUNICATION PATTERNS
+
+The following patterns ensure copy speaks to customers' actual experiences, not our technical understanding of the system. These patterns are critical for Famasi's JTBD-focused marketing.
+
+---
+
+### 57. Customer-Validated Problem Hook
+
+**Problem:** Copy opens with what we technically understand about the system (pharmacy stock dynamics, supply chains) rather than what customers actually experience and care about. They don't care about the pharmacy shelf — they care about why their mum runs out.
+
+**Rule:** Every hook must reflect a problem you've heard directly from customers, not a mechanism you've observed in the system. If you can't trace the problem to a customer interaction, don't use it.
+
+**Customer-validated reasons medications run out (from customer data):**
+- You don't have a routine and just buy whenever it runs out
+- You don't use the medications properly so it runs out haphazardly even if it'll last a month
+- You buy in bits and sachets because it's too expensive to buy at once
+- You don't have a pharmacy that knows you enough to keep your meds
+
+**Before (technical/system focus):**
+> Pharmacies stock medications based on what's moving fast, so when your mum's medication doesn't fall under that, no amount of reminders can help. The pharmacy shelf is empty & the next window for restocking hasn't arrived.
+
+**After (customer-validated focus):**
+> You only remember to order your refills when you're already in pain. You're not lazy — here's what's actually happening.
+
+---
+
+### 58. Speak TO, Not AT
+
+**Problem:** Copy addresses customers indirectly ("patients often...", "20-30% of people...") instead of speaking directly to their experience. This creates distance instead of connection.
+
+**Rule:** Use direct address that names the specific person. "You're one of the people who..." not "Some people..." or statistics about a group.
+
+**Before:**
+> 20-30% of patients miss their medication refills because they forget.
+
+**After:**
+> You're the person who only remembers to refill when you're already out.
+
+**Before:**
+> Many customers struggle with medication management.
+
+**After:**
+> You probably forget to refill until you're in pains. You're not lazy.
+
+---
+
+### 59. Feature-Led vs. Benefit-Led
+
+**Problem:** Copy describes what the product does ("real-time medication insight," "auto-refill," "synchronised refills") instead of what the customer gets ("which pharmacy has it at the right price close to you").
+
+**Customers want:** "Which pharmacy has the right medication at the right price that's close to me"
+**NOT:** "Our system provides real-time medication insights"
+
+**Rule:** Always lead with what the customer gets, not what the product does. Describe the outcome, not the mechanism.
+
+**Before:**
+> Famasi provides real-time medication insight so you always know when to refill.
+
+**After:**
+> You stop worrying about whether your medication will run out before you can get more.
+
+**Before:**
+> We offer auto-refill and delivery synchronization across all your medications.
+
+**After:**
+> Your refills arrive before you run out. No more last-minute pharmacy runs.
+
+---
+
+### 60. No-Lecture CTA
+
+**Problem:** CTAs lecture or educate ("Sign up to learn more about medication management") instead of speaking directly to what the customer wants.
+
+**Customers want:** Direct, simple, no-lecture CTAs
+**Example:** "What medication are you looking for? We'll find it."
+
+**Rule:** CTAs should be short, direct, and benefit-led. No "learn more," "discover," or educational framing.
+
+**Before:**
+> Sign up today to learn how Famasi can help you manage your medications better.
+
+**After:**
+> What medication do you need? We'll find it for you.
+
+**Before:**
+> Get started with Famasi and take control of your medication management.
+
+**After:**
+> Your medications, delivered to your door. Set it up once, it runs on its own.
+
+---
+
+### 61. Specific JTBD Behaviors, Not System Explanations
+
+**Problem:** Copy explains pharmacy mechanics (stock-outs, supply chains, reorder windows) when customers only care about their own behavior and outcomes. They don't care about the pharmacy shelf.
+
+**Rule:** Focus on specific customer behaviors (what they do, how they buy, when they forget) not system mechanics. If you wouldn't say it in a conversation with a customer, don't write it.
+
+**Before:**
+> The pharmacy shelf is empty & the next window for restocking hasn't arrived. Many patients who come in late go home with a different brand, or without anything.
+
+**After:**
+> You buy in sachets because a 30-day supply costs too much. Then you run out before the month is over.
+
+**Before:**
+> Pharmacies work on walk-in demand with no pre-orders or reservations.
+
+**After:**
+> You don't have a pharmacy that knows your name. They don't keep your meds when you need them.
+
+---
+
+### 62. Diaspora Context: Family Buys Locally
+
+**Problem:** Copy assumes diaspora customers send money and medications directly. In reality, family members in Nigeria buy medications locally — the diaspora customer sends money, the family handles the pharmacy.
+
+**Rule:** Always frame as "your family buys locally" not "you send medication" or "they receive money to buy." The money transfer is assumed; the action happens in Nigeria.
+
+**Before:**
+> Send money home and your family can buy medications from any pharmacy in Nigeria.
+
+**After:**
+> Your family buys the medication at a local pharmacy. We make sure it arrives before they run out.
+
+**Before:**
+> We'll deliver medications to your loved ones in Nigeria.
+
+**After:**
+> Your mum's medication arrives at her door. The monthly pharmacy run stops being your problem.
+
+---
+
+### 63. No Unsourced Customer Motivation Claims
+
+**Problem:** Copy claims to know why customers do things without evidence ("they're lazy," "they don't care," "they forget because they don't prioritizse health"). These motivations are assumptions, not customer-validated insights.
+
+**Rule:** Only use customer behaviors you've directly observed or that customers have told you. Describe what they do, not why you think they do it.
+
+**Before:**
+> Patients forget to refill because they don't prioritizse their health.
+
+**After:**
+> You only remember to refill when you're already out. That's not laziness — that's not having a system.
+
+**Before:**
+> Customers don't use pharmacy delivery because they're used to going themselves.
+
+**After:**
+> You still go to the pharmacy every month even though you'd rather not. That's what you've always done.
+
+---
+
 ## Famasi brand voice
 
 Apply this section when writing any content for Famasi Africa or any of its products and sub-brands. These are the voice and structural principles that hold across all contexts — Famasi Go, August, Dispensary, Prescribe, or any future brand. Product-specific details (audience, features, mechanisms, use cases) will vary by brand, but the principles below do not.
@@ -1629,6 +1783,9 @@ Apply this section when writing any content for Famasi Africa or any of its prod
 - Research and observation over fabricated narrative. Write from what is true and defensible, not from invented scenes.
 - No launch language. All Famasi products are live and selling. "Now available", "We're excited to introduce", "Coming soon" are wrong for any brand.
 - No journey / navigate / landscape / ecosystem metaphors (P50).
+- **Customer-validated, not system-educated.** Never write about a problem you haven't heard from customers. (P57, P63)
+- **Speak to their experience, not your understanding.** They don't care about the pharmacy shelf. They care about why their mum runs out. (P57, P61)
+- **What they want, not what you do.** Customers want "which pharmacy has it at the right price close to me" — not "real-time medication insights." (P59)
 
 **The authority principle:**
 Every piece of Famasi content should make the reader feel that the writer understands the problem better than they do. This is earned through mechanism — explaining the real structural cause of a problem, not just restating the symptom. When the mechanism is right and specific, authority follows without being claimed.
@@ -1900,6 +2057,12 @@ Example: Famasi Go schedules delivery before she runs out. Her brand, her dose, 
    - Says the thing directly rather than constructing something smart about it (P53)
    - Uses "you" after establishing the audience, not a repeated label — "diaspora caregiver," "business owner," "your parent" do not appear more than necessary (P54)
    - Has blog/article titles that answer the question the reader is already asking, not titles that promise to reveal how the answer was found (P56)
+   - **Customer-validated, not system-educated** — every problem claim traces to customer data, not system observation (P57, P63)
+   - **Speaks TO, not AT** — uses direct address ("You're the person who...") not statistics about a group (P58)
+   - **Benefit-led, not feature-led** — describes what customer gets, not what product does (P59)
+   - **CTAs are direct and benefit-led** — no lectures, no "learn more," just what the customer wants (P60)
+   - **JTBD-focused** — specific customer behaviors, not pharmacy mechanics (P61)
+   - **Diaspora context correct** — family buys locally, not money sent for medications (P62)
    - Sounds natural when read aloud
    - Varies sentence structure naturally
    - Uses specific details over vague claims
