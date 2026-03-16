@@ -48,7 +48,6 @@ Returns a pass/fail per principle with a one-line fix direction. No rewrites —
 ## References
 
 - [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)
-- [REMI Framework](./REMI_FRAMEWORK.md) — full specification
 
 ## Version History
 
