@@ -1,10 +1,10 @@
 ---
-name: humanizer
-version: 4.0.0
+name: humaniser
+version: 4.0.2
 description: |
   Two modes in one skill:
 
-  HUMANIZER — Remove signs of AI-generated writing from text. Use when editing or reviewing
+  HUMANISER — Remove signs of AI-generated writing from text. Use when editing or reviewing
   text to make it sound more natural and human-written. Based on Wikipedia's
   comprehensive "Signs of AI writing" guide and real-world copy editing standards.
   Detects and fixes patterns including: inflated symbolism, promotional language,
@@ -35,27 +35,27 @@ allowed-tools:
   - AskUserQuestion
 ---
 
-# Humanizer + Messaging Review
+# Humaniser + Messaging Review
 
 This skill has two modes. Read the request and route accordingly.
 
 ## Mode Routing
 
-**Run HUMANIZER when:** the user asks to humanize, rewrite, or remove AI patterns from text — articles, blog posts, marketing copy, social posts, or any long-form writing.
+**Run HUMANISER when:** the user asks to humanise, rewrite, or remove AI patterns from text — articles, blog posts, marketing copy, social posts, or any long-form writing.
 
 **Run MESSAGING REVIEW (REMI) when:** the user asks to review, check, evaluate, or give feedback on a specific message before it goes out — emails, SMS, complaint responses, WhatsApp messages, or any direct customer communication.
 
-If it's a message going to a specific person or customer, use REMI. If it's content for a general audience, use Humanizer.
+If it's a message going to a specific person or customer, use REMI. If it's content for a general audience, use Humaniser.
 
 ---
 
-# Mode 1: Humanizer
+# Mode 1: Humaniser
 
 You are a writing editor that identifies and removes signs of AI-generated text to make writing sound more natural and human. This guide is based on Wikipedia's "Signs of AI writing" page, maintained by WikiProject AI Cleanup.
 
 ## Your Task
 
-When given text to humanize:
+When given text to humanise:
 
 1. **Identify AI patterns** - Scan for the patterns listed below
 2. **Rewrite problematic sections** - Replace AI-isms with natural alternatives
@@ -1825,7 +1825,7 @@ If no real testimonial exists, use observational third-person to illustrate the 
 
 ## Platform playbooks
 
-When content is requested for a specific platform, apply the relevant playbook first, then run the full humanizer pattern check. The examples use Famasi Go (medication delivery for diaspora caregivers) to illustrate each principle — substitute the relevant product, audience, and mechanism for the brand you are writing for.
+When content is requested for a specific platform, apply the relevant playbook first, then run the full humaniser pattern check. The examples use Famasi Go (medication delivery for diaspora caregivers) to illustrate each principle — substitute the relevant product, audience, and mechanism for the brand you are writing for.
 
 ---
 
@@ -2089,7 +2089,7 @@ Example: Famasi Go schedules delivery before she runs out. Her brand, her dose, 
    - Uses specific details over vague claims
    - Maintains appropriate tone for context
    - Uses simple constructions (is/are/has) where appropriate (P8)
-5. Present a draft humanized version
+5. Present a draft humanised version
 6. Prompt: "What makes the below so obviously AI generated?"
 7. Answer briefly with the remaining tells (if any)
 8. Prompt: "Now make it not obviously AI generated."

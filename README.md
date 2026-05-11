@@ -60,10 +60,11 @@ Humaniser should run near the end of the workflow. If you run it too early, late
 ## References
 
 - [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)
-- [blader/humanizer](https://github.com/blader/humanizer) — original humanizer skill, covering the Wikipedia AI writing specifications only
+- [blader/humanizer](https://github.com/blader/humanizer) — original Humaniser skill, covering the Wikipedia AI writing specifications only
 
 ## Version History
 
+- **4.0.2** — Renamed skill and user-facing references from Humanizer to Humaniser
 - **4.0.1** — Improved public description and workflow positioning
 - **4.0.0** — Added Messaging Review (REMI) as second mode
 - **3.3.0** — Added 7 customer-centric communication patterns
