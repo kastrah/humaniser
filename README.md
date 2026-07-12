@@ -44,8 +44,6 @@ Please humanise this text: [your text]
 
 ## Installation
 
-### Claude Code
-
 ```bash
 git clone https://github.com/kastrah/humaniser.git ~/.claude/skills/humaniser
 ```
