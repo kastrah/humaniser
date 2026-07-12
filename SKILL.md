@@ -644,10 +644,10 @@ Negative parallelism across two sentences:
 ---
 
 **Before (landing page):**
-> Famasi is a better pharmacy experience.
+> [brand] is a better pharmacy experience.
 
 **After:**
-> Famasi delivers your medications to your door, synchronises all your refills to one date, and keeps a care plan your whole family can see.
+> [brand] delivers your medications to your door, synchronises all your refills to one date, and keeps a care plan your whole family can see.
 
 ---
 
@@ -736,10 +736,10 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 **Rule:** Don't reward suffering with a tidy bow. Acknowledge the loss, then move forward without suggesting the loss was erased.
 
 **Before (email):**
-> Since switching to Famasi, everything about managing his medications became easy.
+> Since switching to [brand], everything about managing his medications became easy.
 
 **After:**
-> Since switching to Famasi, the monthly pharmacy run stopped being her problem.
+> Since switching to [brand], the monthly pharmacy run stopped being her problem.
 
 ---
 
@@ -856,10 +856,10 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 ---
 
 **Before (landing page):**
-> Famasi is built on the belief that caregivers deserve support too.
+> [brand] is built on the belief that caregivers deserve support too.
 
 **After:**
-> Famasi delivers medications to the door, synchronises refills, and maintains a care plan the whole family can see — so the person managing everything doesn't have to manage the pharmacy too.
+> [brand] delivers medications to the door, synchronises refills, and maintains a care plan the whole family can see — so the person managing everything doesn't have to manage the pharmacy too.
 
 ---
 
@@ -904,7 +904,7 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 **Do not mix them.**
 
 **Before (testimonial written in authorial register):**
-> "Since finding Famasi, managing my father's medications has become significantly more manageable, allowing me to focus on other aspects of caregiving."
+> "Since finding [brand], managing my father's medications has become significantly more manageable, allowing me to focus on other aspects of caregiving."
 
 **After (written in a real person's register):**
 > "I stopped counting how many times I called the pharmacy in a week. Now I don't have to."
@@ -912,7 +912,7 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 ---
 
 **Rule:** Real people describe outcomes, not brand names.
-> ❌ "Since I found Famasi, everything changed."
+> ❌ "Since I found [brand], everything changed."
 > ✅ "Since I stopped doing the hospital runs myself, I have Wednesday afternoons back."
 
 **Rule:** Real people use incomplete logic.
@@ -928,7 +928,7 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 **Rule:** Let the benefit carry the implicit argument. The reader connects the product to the outcome without being told to.
 
 **Before:**
-> Since I started using Famasi, my life got easier.
+> Since I started using [brand], my life got easier.
 
 **After:**
 > Since the refills started arriving at the door, I stopped losing track of which prescription ran out.
@@ -936,7 +936,7 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 ---
 
 **Before (landing page):**
-> Famasi is Nigeria's leading medication management platform.
+> [brand] is Nigeria's leading medication management platform.
 
 **After:**
 > Your medications arrive before they run out. Your refills sync to one date. Your family can see the care plan without calling you first.
@@ -944,7 +944,7 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 ---
 
 **Before (email CTA):**
-> Sign up for Famasi today and take control of your caregiving.
+> Sign up for [brand] today and take control of your caregiving.
 
 **After:**
 > Set up home delivery once, and the monthly pharmacy run stops being your problem.
@@ -982,14 +982,14 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 4. PS that bridges to the next piece of content — one sentence only
 
 **Before:**
-> That is what caregiving really means. We celebrate every caregiver this Women's Day. To learn more about how Famasi supports caregivers like you, visit our website. And don't forget to share this with someone who needs to hear it. PS: Tomorrow we'll share five tips for managing medication remotely.
+> That is what caregiving really means. We celebrate every caregiver this Women's Day. To learn more about how [brand] supports caregivers like you, visit our website. And don't forget to share this with someone who needs to hear it. PS: Tomorrow we'll share five tips for managing medication remotely.
 
 **After:**
 > You are allowed to still be a person inside this role.
 >
-> For caregivers managing medications in Nigeria — in the same city or a different country — Famasi exists to take the medication burden off your plate so your energy goes to the parts of caring that only you can do.
+> For caregivers managing medications in Nigeria — in the same city or a different country — [brand] exists to take the medication burden off your plate so your energy goes to the parts of caring that only you can do.
 >
-> → [See how Famasi works]
+> → [See how [brand] works]
 
 ---
 
@@ -1050,7 +1050,7 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 **Rule:** The subject line should create a gap the reader wants to close — a question they want answered, a statement that surprises them, or a situation they recognise.
 
 **Before:**
-> Women's Day Newsletter — Famasi Celebrates Caregivers
+> Women's Day Newsletter — [brand] Celebrates Caregivers
 
 **After:**
 > She confirmed the medication. Then opened her laptop. Nobody asked how she was doing.
@@ -1110,10 +1110,10 @@ The following patterns supplement the sections above. Each is numbered to contin
 ---
 
 **Before (landing page):**
-> Famasi is a pharmacy — built around the caregiver, not the patient alone.
+> [brand] is a pharmacy — built around the caregiver, not the patient alone.
 
 **After:**
-> Famasi is a pharmacy that puts the caregiver at the centre of its service.
+> [brand] is a pharmacy that puts the caregiver at the centre of its service.
 
 ---
 
@@ -1160,10 +1160,10 @@ The following patterns supplement the sections above. Each is numbered to contin
 ---
 
 **Before (landing page):**
-> Famasi provides support for caregivers who are experiencing difficulty in the management of medication logistics.
+> [brand] provides support for caregivers who are experiencing difficulty in the management of medication logistics.
 
 **After:**
-> Famasi supports caregivers who struggle to manage their medications.
+> [brand] supports caregivers who struggle to manage their medications.
 
 ---
 
@@ -1351,10 +1351,10 @@ The following patterns supplement the sections above. Each is numbered to contin
 ---
 
 **Before (landing page):**
-> Famasi is your roadmap through the complex healthcare landscape.
+> [brand] is your roadmap through the complex healthcare landscape.
 
 **After:**
-> Famasi coordinates your refills, delivers to your door, and keeps a medication record your whole family can see.
+> [brand] coordinates your refills, delivers to your door, and keeps a medication record your whole family can see.
 
 ---
 
@@ -1396,10 +1396,10 @@ The following patterns supplement the sections above. Each is numbered to contin
 ---
 
 **Before (landing page):**
-> Having understood the problem, let's take a look at how Famasi solves it.
+> Having understood the problem, let's take a look at how [brand] solves it.
 
 **After:**
-> [Show how Famasi solves it. The reader understood the problem — they read it.]
+> [Show how [brand] solves it. The reader understood the problem — they read it.]
 
 ---
 
@@ -1549,10 +1549,10 @@ Or, separating the two instructions into distinct sentences:
 **Before (email):**
 > Managing medication remotely is hard.
 >
-> Famasi makes it easier.
+> [brand] makes it easier.
 
 **After:**
-> Managing medication remotely is hard because you can't see when she's running low and you can't control when she goes to the pharmacy. Famasi handles both.
+> Managing medication remotely is hard because you can't see when she's running low and you can't control when she goes to the pharmacy. [brand] handles both.
 
 ---
 
@@ -1623,7 +1623,7 @@ The distinction: engagement-bait promises a story or a speaker's discovery. Util
 
 ## CUSTOMER-CENTRIC COMMUNICATION PATTERNS
 
-The following patterns ensure copy speaks to customers' actual experiences, not our technical understanding of the system. These patterns are critical for Famasi's JTBD-focused marketing.
+The following patterns ensure copy speaks to customers' actual experiences, not our technical understanding of the system. These patterns are critical for JTBD-focused marketing.
 
 ---
 
@@ -1677,7 +1677,7 @@ The following patterns ensure copy speaks to customers' actual experiences, not 
 **Rule:** Always lead with what the customer gets, not what the product does. Describe the outcome, not the mechanism.
 
 **Before:**
-> Famasi provides real-time medication insight so you always know when to refill.
+> [brand] provides real-time medication insight so you always know when to refill.
 
 **After:**
 > You stop worrying about whether your medication will run out before you can get more.
@@ -1700,13 +1700,13 @@ The following patterns ensure copy speaks to customers' actual experiences, not 
 **Rule:** CTAs should be short, direct, and benefit-led. No "learn more," "discover," or educational framing.
 
 **Before:**
-> Sign up today to learn how Famasi can help you manage your medications better.
+> Sign up today to learn how [brand] can help you manage your medications better.
 
 **After:**
 > What medication do you need? We'll find it for you.
 
 **Before:**
-> Get started with Famasi and take control of your medication management.
+> Get started with [brand] and take control of your medication management.
 
 **After:**
 > Your medications, delivered to your door. Set it up once, it runs on its own.
@@ -2015,7 +2015,7 @@ If no real testimonial exists, use observational third-person to illustrate the 
 
 ## Platform playbooks
 
-When content is requested for a specific platform, apply the relevant playbook first, then run the full humaniser pattern check. The examples use Famasi Go (medication delivery for diaspora caregivers) to illustrate each principle — substitute the relevant product, audience, and mechanism for the brand you are writing for.
+When content is requested for a specific platform, apply the relevant playbook first, then run the full humaniser pattern check. The examples use [product] (medication delivery for diaspora caregivers) to illustrate each principle — substitute the relevant product, audience, and mechanism for the brand you are writing for.
 
 ---
 
@@ -2043,7 +2043,7 @@ LinkedIn posts work when they establish authority through a clear mechanism or c
 - No performative close ("We see you", "You're not alone")
 - Length: 300–500 words
 
-**Reference example — Famasi Go, BP medication stock-out post (illustrates the arc and tone):**
+**Reference example — [product], BP medication stock-out post (illustrates the arc and tone):**
 > The stock-out problem at Nigerian pharmacies isn't primarily a supply problem.
 >
 > It's a system design problem, and most of what diaspora families do when it happens makes no real difference. Here's why.
@@ -2058,11 +2058,11 @@ LinkedIn posts work when they establish authority through a clear mechanism or c
 >
 > This is a coordination failure, not a supply failure. Unfortunately, money and phone calls don't change the structure.
 >
-> Famasi Go was built for this gap.
+> [product] was built for this gap.
 >
 > Delivery before she runs out. Her brand, her dose, to her door. The monthly pharmacy run stops being anyone's emergency.
 >
-> If you're managing a parent's health in Nigeria from the UK, US, Canada, or anywhere else outside Nigeria, get early access to Famasi Go: [link]
+> If you're managing a parent's health in Nigeria from the UK, US, Canada, or anywhere else outside Nigeria, get early access to [product]: [link]
 
 ---
 
@@ -2192,7 +2192,7 @@ What this slide does:
 
 What this slide does NOT do:
 - Introduce the solution yet
-- Use invented data or claims that cannot be defended (see Famasi brand context)
+- Use invented data or claims that cannot be defended (see brand context)
 
 **Swipe mechanic:** the reader now understands the cause and wants to know how to break the cycle.
 
@@ -2236,9 +2236,9 @@ What this slide does NOT do:
 **CTA rules:**
 - One sentence, one link
 - Address the specific reader from the hook: "If you're in the UK managing a parent's health in Nigeria..."
-- Describe the action, not the brand: "get early access" not "visit Famasi"
+- Describe the action, not the brand: "get early access" not "visit [brand]"
 
-Example: Famasi Go schedules delivery before she runs out. Her brand, her dose, to her door. The monthly pharmacy run stops being anyone's emergency. Get early access: [link]
+Example: [product] schedules delivery before she runs out. Her brand, her dose, to her door. The monthly pharmacy run stops being anyone's emergency. Get early access: [link]
 
 ---
 
