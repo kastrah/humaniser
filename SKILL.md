@@ -1542,7 +1542,7 @@ Or, separating the two instructions into distinct sentences:
 *(The gap: what's the link between burnout and systems? Why do systems help?)*
 
 **After:**
-> Most caregivers report some level of burnout — because consistency depends on a system and they have been carrying it alone. Shared tools reduce load, not love.
+> Most caregivers report some level of burnout, because consistency depends on a system and they have been carrying it alone. Shared tools reduce load, not love.
 
 ---
 
