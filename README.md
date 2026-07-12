@@ -20,21 +20,17 @@ This tool is part of a three-skill writing stack. Each tool does one job well.
 
 ### If you are on humaniser but need something else
 
-- **Your copy needs stronger hooks, CTAs, or persuasion structure** → use [copy-pass](https://github.com/kastrah/copy-pass)
-- **You are writing an email, SMS, WhatsApp message, or complaint response** → use [care-review](https://github.com/kastrah/care-review)
-- **You are writing a blog, landing page, or article** → start with [copy-pass](https://github.com/kastrah/copy-pass), then come back here
+- **Your copy needs stronger hooks, CTAs, or persuasion structure** → run [copy-pass](https://github.com/kastrah/copy-pass) first
+- **Your text needs a conversational check** → run [care-review](https://github.com/kastrah/care-review) first
+- **You only need AI-tell cleanup** → stay here
 
 ## Recommended workflow
 
 ```text
-Content for a general audience:
-Research → Draft → copy-pass → humaniser → final review → publish
-
-Messages for a specific person:
-Draft → care-review → revise → send
+Draft → copy-pass → care-review → humaniser → publish / send
 ```
 
-humaniser should run near the end of the content workflow. If you run it too early, later edits can bring the AI patterns back.
+humaniser should run near the end of the workflow. If you run it too early, later edits can bring the AI patterns back.
 
 ## Usage
 
