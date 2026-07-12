@@ -63,23 +63,6 @@ Copy `SYSTEM_PROMPT.md` into the system prompt or custom instructions field.
 - [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)
 - [blader/humanizer](https://github.com/blader/humanizer) — original humaniser skill, covering the Wikipedia AI writing specifications only
 
-## Version History
-- **4.3.0** — Removed Messaging Review mode; use [care-review](https://github.com/kastrah/care-review) for message-level review.
-- **4.2.0** — Added P68–P74 (Two-Number Comparisons, Conditional Logic in Bullets, Front-Loaded Background, Misused Tables/Blockquotes/Bold, Trailing Summary Filler, Permission Phrases, Single-Sentence-Per-Line Cadence). Added research evidence section citing Bynder, Originality.ai, Science Advances, Springer, Typeform, and DemandScience studies. Style-guide patterns sourced from direct writing spec; structural patterns backed by empirical AI writing research.
-- **4.1.0** — Added P64–P67 (Inanimate Actor, Stacked Rhetorical Questions, Dramatic Pivot, Invented Hyphenated Adjectives) from [shreyashankar/plain-writing-skill](https://github.com/shreyashankar/plain-writing-skill); added expansion-for-clarity guidance to Process
-
-- **4.0.2** — Renamed skill and user-facing references from Humanizer to Humaniser
-- **4.0.1** — Improved public description and workflow positioning
-- **4.0.0** — Added Messaging Review mode (now care-review)
-- **3.3.0** — Added 7 customer-centric communication patterns
-- **3.2.0** — Added P52–P56, reinforced P13/P30/P49, updated brand voice
-- **3.1.0** — Added P45–P51, P25 clarification, checklist update
-- **3.0.0** — Added 20 structural and narrative writing standards
-- **2.2.0** — Added final audit pass and second-pass rewrite
-- **2.1.0** — Added before/after examples for all 24 patterns
-- **2.0.0** — Complete rewrite based on Wikipedia source
-- **1.0.0** — Initial release
-
 ## Licence
 
 MIT
