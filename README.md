@@ -2,35 +2,11 @@
 
 Humaniser is a writing-review skill for turning AI-shaped drafts into copy that sounds like a real person wrote it. It removes common LLM writing patterns and fixes stiff or overproduced phrasing.
 
-Use it as the final voice pass after the message, structure, and persuasion have already been handled. It is especially useful after running a copy strategy or persuasion pass, because those edits often make the draft stronger but can also reintroduce AI tells.
-
-## Installation
-
-### Claude Code
-
-```bash
-git clone https://github.com/kastrah/humaniser.git ~/.claude/skills/humaniser
-```
-
-### OpenCode / Codex CLI
-
-Place `AGENTS.md` in your project root or globally at `~/.config/opencode/AGENTS.md`.
-
-### Any other platform
-
-Copy `SYSTEM_PROMPT.md` into the system prompt or custom instructions field.
-
-## Usage
-
-```
-Please humanise this text: [your text]
-```
-
-## What it does
-
-Identifies and rewrites AI-generated text so the final version sounds natural, specific, and human. It is based on Wikipedia's "Signs of AI writing" guide, then extended with practical editing standards for marketing copy, customer communication, blogs, emails, social posts, and product pages.
+It identifies and rewrites AI-generated text so the final version sounds natural, specific, and human. Based on Wikipedia's "Signs of AI writing" guide, then extended with practical editing standards for marketing copy, customer communication, blogs, emails, social posts, and product pages.
 
 The skill checks for 74 patterns, including inflated significance, promotional filler, vague authority, em dash overuse, rule-of-three padding, negative parallelisms, generic transitions, stutter sentences, feature-led copy, lecture-style CTAs, over-clean rhythm, permission phrases, single-sentence-per-line cadence, and copy that talks at the reader instead of to them.
+
+Use it as the final voice pass after the message, structure, and persuasion have already been handled. It is especially useful after running a copy strategy or persuasion pass, because those edits often make the draft stronger but can also reintroduce AI tells.
 
 ## How it fits with other tools
 
@@ -59,6 +35,28 @@ Draft → care-review → revise → send
 ```
 
 Humaniser should run near the end of the content workflow. If you run it too early, later edits can bring the AI patterns back.
+
+## Usage
+
+```
+Please humanise this text: [your text]
+```
+
+## Installation
+
+### Claude Code
+
+```bash
+git clone https://github.com/kastrah/humaniser.git ~/.claude/skills/humaniser
+```
+
+### OpenCode / Codex CLI
+
+Place `AGENTS.md` in your project root or globally at `~/.config/opencode/AGENTS.md`.
+
+### Any other platform
+
+Copy `SYSTEM_PROMPT.md` into the system prompt or custom instructions field.
 
 ## References
 
