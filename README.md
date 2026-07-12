@@ -60,7 +60,6 @@ Copy `SYSTEM_PROMPT.md` into the system prompt or custom instructions field.
 
 ## References
 
-- [care-review](https://github.com/kastrah/care-review) — message review for emails, SMS, and WhatsApp
 - [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)
 - [blader/humanizer](https://github.com/blader/humanizer) — original humaniser skill, covering the Wikipedia AI writing specifications only
 
