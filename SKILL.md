@@ -1,6 +1,6 @@
 ---
 name: humaniser
-version: 4.1.0
+version: 4.2.0
 description: |
   Two modes in one skill:
 
@@ -1902,6 +1902,109 @@ The following patterns ensure copy speaks to customers' actual experiences, not 
 *Source: adapted from [shreyashankar/plain-writing-skill](https://github.com/shreyashankar/plain-writing-skill), Rule 9.*
 
 
+### 68. Two-Number Comparisons in Tables or Bullets
+
+**Problem:** AI formats a simple two-number comparison as a table or bullet list when a sentence would be clearer and faster to read. Tables are for multi-row, multi-column data. Two numbers are not a table.
+
+**Before:**
+> | Metric | Q1 | Q2 |
+> |---|---|---|
+> | Conversion rate | 12% | 8% |
+
+**After:**
+> The conversion rate dropped from 12% in Q1 to 8% in Q2.
+
+**Fix:** If you're comparing two numbers, write a sentence. Use a table only when there are three or more rows and the reader needs to scan across columns.
+
+
+### 69. Conditional Logic Split Into Bullets
+
+**Problem:** AI breaks connected if/then reasoning into a bullet list, severing the logical link. "If X, then A. If Y, then B" is one thought, not two bullets.
+
+**Before:**
+> - If the user is logged in, show the dashboard.
+> - If the user is not logged in, redirect to the login page.
+
+**After:**
+> If the user is logged in, show the dashboard; if not, redirect to the login page.
+
+**Fix:** Keep conditional reasoning in prose using connectives like "if," "when," "but," and "so." Bullets are for independent items, not branching logic.
+
+
+### 70. Background Front-Loaded as a Separate Sentence
+
+**Problem:** AI gives background its own sentence before the main point, slowing the reader down. The fix is to fold context into a subordinate clause or cut it entirely.
+
+**Before:**
+> The pharmacy was closed for the holiday weekend. She missed her refill window.
+
+**After:**
+> Because the pharmacy was closed for the holiday weekend, she missed her refill window.
+
+**Fix:** Use subordinate clauses (because, since, although, when) to fold background into the sentence that needs it. If the context isn't necessary for the reader to act, cut it.
+
+
+### 71. Misused Tables, Blockquotes, or Bold for Lightweight Content
+
+**Problem:** AI uses tables, blockquotes, or bold formatting for content that should just be a sentence or two. These structural elements signal "pay special attention" — when the content is trivial, the formatting is noise.
+
+**Before:**
+> **Key takeaway:** The new feature reduces load time by 40%.
+
+**After:**
+> The new feature reduces load time by 40%.
+
+**Fix:** Use tables for multi-row data. Use blockquotes for extended quotations. Use bold for structural headers on list items. Don't use any of them for one or two lines that earn nothing from the visual weight.
+
+
+### 72. Trailing Summary or Sign-Off Filler
+
+**Problem:** AI restates the main point at the end of a section or adds a sign-off that adds nothing. "In summary,..." "To recap,..." "Ultimately, the key takeaway is..." The reader just read the content. They don't need you to tell them what they read.
+
+**Before:**
+> The new onboarding flow reduced drop-off by 23%. In summary, simplifying the signup process had a significant impact on user retention.
+
+**After:**
+> The new onboarding flow reduced drop-off by 23%.
+
+**Fix:** End the answer when the content ends. Don't summarize what you just said. Don't add a motivational closer. If the last sentence doesn't introduce new information, cut it.
+
+
+### 73. Permission Phrases and Filler Openers
+
+**Problem:** AI uses permission phrases and filler openers at far higher rates than humans. Analysis of 500 AI-generated LinkedIn posts found phrases like "Here's the thing" appeared at **34x their normal frequency** in natural speech. Other offenders: "Let me explain," "Here's why," "The truth is," "What if I told you."
+
+**Words to watch:** Here's the thing, Here's why, Let me explain, The truth is, What if I told you, Here's what you need to know, The reality is, Let's be honest, Here's the kicker
+
+**Before:**
+> Here's the thing — most pharmacies don't track refill patterns.
+
+**After:**
+> Most pharmacies don't track refill patterns.
+
+**Fix:** Delete the permission phrase and start with the actual point. If the sentence doesn't work without the opener, the opener was masking a weak claim.
+
+*Evidence: Analysis of 500 AI-generated LinkedIn posts found 73% contained permission phrases at 34x normal conversational frequency.*
+
+
+### 74. Single-Sentence-Per-Line Formatting (LinkedIn Cadence)
+
+**Problem:** AI defaults to one sentence per line, creating a staccato rhythm that reads like a LinkedIn thread. 91% of AI-generated LinkedIn posts use this format. It's not always wrong — sometimes a short line earns emphasis — but when every line is a standalone sentence, the prose stops flowing and starts performing.
+
+**Before:**
+> Refill gaps are the real risk.
+> Not the diagnosis itself.
+> But the space between prescriptions.
+> That's where complications start.
+
+**After:**
+> The real risk isn't the diagnosis — it's the gap between prescriptions. That's where complications start.
+
+**Fix:** Join related sentences with connectives (and, but, so, because). Use a standalone short line only when it genuinely earns the emphasis — not as a default rhythm.
+
+*Evidence: 91% of AI-generated LinkedIn posts use single-sentence-per-line formatting. 82% open with one of three hook templates: contrarian opener, humble brag, or shock statement.*
+
+
 ---
 
 ## Brand voice
@@ -2284,6 +2387,24 @@ Provide:
 This skill is based on [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), maintained by WikiProject AI Cleanup. The patterns documented there come from observations of thousands of instances of AI-generated text on Wikipedia.
 
 Key insight from Wikipedia: "LLMs use statistical algorithms to guess what should come next. The result tends toward the most statistically likely result that applies to the widest variety of cases."
+
+### Research evidence (supporting data for patterns 68–74)
+
+**Bynder AI vs Human Content Study (2024, N=2,000, UK/US):** 50% of readers correctly identified AI-generated copy in a blind test. Of those who spotted it, 52% disengaged from the content, 26% described the brand as impersonal, and 20% called it lazy. Paradoxically, 56% preferred the AI article in the blind test — but disengagement kicked in the moment they suspected AI.
+
+**Originality.ai LinkedIn Study (2024, 8,795 posts):** 54% of long-form LinkedIn posts are likely AI-generated. AI posts received 45% less engagement than likely-human posts.
+
+**AI LinkedIn Post Structural Analysis (500 posts):** 91% used single-sentence-per-line formatting (P74). 82% opened with one of three hook templates (contrarian opener, humble brag, shock statement). 73% contained permission phrases like "Here's the thing" at 34x normal conversational frequency (P73).
+
+**Science Advances (peer-reviewed):** AI-assisted stories were rated more creative individually, but became more similar to each other — AI increases perceived individual creativity while eroding collective content diversity.
+
+**Springer AI & Society (2026, N=88, two-year experiment):** Detection accuracy seldom exceeds chance when people rely on surface-level heuristics (grammar, formatting). The strongest predictor of correct attribution was whether a text *felt captivating* — affective and tacit responses outperformed formal linguistic analysis. Participants who focused on grammar and formatting performed *worse* than those who used gut feeling.
+
+**Typeform "Get Real" Survey (2026, N=2,000+):** 95% of marketers use AI at work. 91% edit AI-generated copy to make it sound more human — even when it's already correct.
+
+**DemandScience 2026 Report (N=750 senior marketing leaders):** 72% said AI-generated content is hurting brand distinction.
+
+**Amanda Natividad's framing:** "AI-generated text doesn't have a bad voice. It has an absent one. It reads like a composite of every competent writer on the internet — which is exactly what it is." ([I Know When You Didn't Write That](https://amandanat.substack.com/p/i-know-when-you-didnt-write-that), Feb 2026)
 
 ---
 
