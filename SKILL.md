@@ -2019,6 +2019,8 @@ When content is requested for a specific platform, apply the relevant playbook f
 
 ---
 
+> These playbooks handle platform-specific structure (hook, arc, CTA). For a deeper persuasion pass — stronger hooks, objection handling, emotional triggers — run [copy-pass](https://github.com/kastrah/copy-pass) first. humaniser does the final voice cleanup after structural edits are in place.
+
 ### LinkedIn
 
 LinkedIn posts work when they establish authority through a clear mechanism or counterintuitive insight. The reader comes away understanding something they didn't fully understand before. This is the authority move — not storytelling, not inspiration.
