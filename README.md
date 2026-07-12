@@ -32,21 +32,33 @@ Identifies and rewrites AI-generated text so the final version sounds natural, s
 
 The skill checks for 74 patterns, including inflated significance, promotional filler, vague authority, em dash overuse, rule-of-three padding, negative parallelisms, generic transitions, stutter sentences, feature-led copy, lecture-style CTAs, over-clean rhythm, permission phrases, single-sentence-per-line cadence, and copy that talks at the reader instead of to them.
 
-For message-level review (emails, SMS, WhatsApp), see [care-review](https://github.com/kastrah/care-review).
+## How it fits with other tools
+
+This tool is part of a three-skill writing stack. Each tool does one job well.
+
+| Tool | What it does | When to use it |
+|------|-------------|----------------|
+| [Copy Pass](https://github.com/kastrah/copy-pass) | Strengthens persuasion: hooks, CTAs, objections, emotional triggers, platform fit | Before a senior writer reviews copy. Not for final cleanup. |
+| Humaniser | Removes AI writing patterns and makes text sound natural | After copy pass. Final voice pass before publishing. |
+| [care-review](https://github.com/kastrah/care-review) | Checks whether a message is conversational, actionable, richer than asked, and ends with a reason to reply | Before any customer-facing message goes out. |
+
+### If you are on humaniser but need something else
+
+- **Your copy needs stronger hooks, CTAs, or persuasion structure** → use [Copy Pass](https://github.com/kastrah/copy-pass)
+- **You are writing an email, SMS, WhatsApp message, or complaint response** → use [care-review](https://github.com/kastrah/care-review)
+- **You are writing a blog, landing page, or article** → start with [Copy Pass](https://github.com/kastrah/copy-pass), then come back here
 
 ## Recommended workflow
 
-Humaniser handles content for a general audience — blogs, landing pages, social posts, articles. Care-review handles messages for a specific person — emails, SMS, complaint responses, WhatsApp. Use the right one for what you're writing.
-
 ```text
 Content for a general audience:
-Strategy / Copy Reference → Humaniser → final review → publish
+Research → Draft → Copy Pass → Humaniser → final review → publish
 
 Messages for a specific person:
 Draft → care-review → revise → send
 ```
 
-Humaniser should run near the end of the workflow. If you run it too early, later edits can bring the AI patterns back.
+Humaniser should run near the end of the content workflow. If you run it too early, later edits can bring the AI patterns back.
 
 ## References
 
