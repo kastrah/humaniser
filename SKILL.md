@@ -1456,7 +1456,7 @@ Or, separating the two instructions into distinct sentences:
 > Consistency isn't the casualty — the system around it is.
 
 **After:**
-> People don't skip because they're careless. They skip because the system makes consistency harder than it should be.
+> People skip because the system makes consistency harder than it should be.
 
 ---
 
@@ -1472,7 +1472,7 @@ Or, separating the two instructions into distinct sentences:
 > The pharmacy isn't the bottleneck. Distance is.
 
 **After:**
-> The problem isn't that good pharmacies don't exist. The problem is that your parent doesn't live next to one.
+> Good pharmacies exist. Your parent just doesn't live next to one.
 
 ---
 
@@ -1498,7 +1498,7 @@ Or, separating the two instructions into distinct sentences:
 > The diaspora caregiver often feels guilt. The diaspora caregiver carries more weight than is visible to others. What the diaspora caregiver needs isn't more advice — it's infrastructure.
 
 **After:**
-> You carry more than is visible. The guilt is real, and so is the distance. What you need isn't more advice — it's infrastructure.
+> You carry more than is visible. The guilt is real, and so is the distance. What you need is infrastructure, not more advice.
 
 ---
 
@@ -1542,7 +1542,7 @@ Or, separating the two instructions into distinct sentences:
 *(The gap: what's the link between burnout and systems? Why do systems help?)*
 
 **After:**
-> Most caregivers report some level of burnout — not because they lack commitment but because consistency depends on a system and they have been carrying it alone. Shared tools don't reduce love. They reduce load.
+> Most caregivers report some level of burnout — because consistency depends on a system and they have been carrying it alone. Shared tools reduce load, not love.
 
 ---
 
@@ -1976,7 +1976,7 @@ The following patterns ensure copy speaks to customers' actual experiences, not 
 > That's where complications start.
 
 **After:**
-> The real risk isn't the diagnosis — it's the gap between prescriptions. That's where complications start.
+> The real risk is the gap between prescriptions, not the diagnosis itself. That's where complications start.
 
 **Fix:** Join related sentences with connectives (and, but, so, because). Use a standalone short line only when it genuinely earns the emphasis — not as a default rhythm.
 
