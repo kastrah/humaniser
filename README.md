@@ -1,6 +1,6 @@
 # Humaniser
 
-Humaniser is a writing-review skill for turning AI-shaped drafts into copy that sounds like a real person wrote it. It removes common LLM writing patterns, fixes stiff or overproduced phrasing, and reviews customer-facing messages against the REMI framework before they go out.
+Humaniser is a writing-review skill for turning AI-shaped drafts into copy that sounds like a real person wrote it. It removes common LLM writing patterns and fixes stiff or overproduced phrasing.
 
 Use it as the final voice pass after the message, structure, and persuasion have already been handled. It is especially useful after running a copy strategy or persuasion pass, because those edits often make the draft stronger but can also reintroduce AI tells.
 
@@ -22,53 +22,46 @@ Copy `SYSTEM_PROMPT.md` into the system prompt or custom instructions field.
 
 ## Usage
 
-**Humaniser** — remove AI writing patterns:
 ```
 Please humanise this text: [your text]
 ```
 
-**Messaging Review** — evaluate a message against REMI:
-```
-Review this message: [your draft]
-```
+## What it does
 
-## Modes
-
-### Humaniser
 Identifies and rewrites AI-generated text so the final version sounds natural, specific, and human. It is based on Wikipedia's "Signs of AI writing" guide, then extended with practical editing standards for marketing copy, customer communication, blogs, emails, social posts, and product pages.
 
 The skill checks for 74 patterns, including inflated significance, promotional filler, vague authority, em dash overuse, rule-of-three padding, negative parallelisms, generic transitions, stutter sentences, feature-led copy, lecture-style CTAs, over-clean rhythm, permission phrases, single-sentence-per-line cadence, and copy that talks at the reader instead of to them.
 
-### Messaging Review (REMI)
-Evaluates any outbound or inbound message against four principles:
-
-- **R — Real:** Does it sound like a person, or a brand?
-- **E — Expectation-first:** Does the reader know what happens next and when?
-- **M — More than the ask:** Did it give something useful before asking for anything?
-- **I — Invite dialogue:** Does the ending create a reason to reply?
-
-Returns a pass/fail per principle with a one-line fix direction. No rewrites by default — just clear, actionable feedback.
+For message-level review (emails, SMS, WhatsApp), see [care-review](https://github.com/kastrah/care-review).
 
 ## Recommended workflow
 
+Humaniser handles content for a general audience — blogs, landing pages, social posts, articles. Care-review handles messages for a specific person — emails, SMS, complaint responses, WhatsApp. Use the right one for what you're writing.
+
 ```text
+Content for a general audience:
 Strategy / Copy Reference → Humaniser → final review → publish
+
+Messages for a specific person:
+Draft → care-review → revise → send
 ```
 
 Humaniser should run near the end of the workflow. If you run it too early, later edits can bring the AI patterns back.
 
 ## References
 
+- [care-review](https://github.com/kastrah/care-review) — message review for emails, SMS, and WhatsApp
 - [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)
 - [blader/humanizer](https://github.com/blader/humanizer) — original Humaniser skill, covering the Wikipedia AI writing specifications only
 
 ## Version History
+- **4.3.0** — Removed Messaging Review mode; use [care-review](https://github.com/kastrah/care-review) for message-level review.
 - **4.2.0** — Added P68–P74 (Two-Number Comparisons, Conditional Logic in Bullets, Front-Loaded Background, Misused Tables/Blockquotes/Bold, Trailing Summary Filler, Permission Phrases, Single-Sentence-Per-Line Cadence). Added research evidence section citing Bynder, Originality.ai, Science Advances, Springer, Typeform, and DemandScience studies. Style-guide patterns sourced from direct writing spec; structural patterns backed by empirical AI writing research.
 - **4.1.0** — Added P64–P67 (Inanimate Actor, Stacked Rhetorical Questions, Dramatic Pivot, Invented Hyphenated Adjectives) from [shreyashankar/plain-writing-skill](https://github.com/shreyashankar/plain-writing-skill); added expansion-for-clarity guidance to Process
 
 - **4.0.2** — Renamed skill and user-facing references from Humanizer to Humaniser
 - **4.0.1** — Improved public description and workflow positioning
-- **4.0.0** — Added Messaging Review (REMI) as second mode
+- **4.0.0** — Added Messaging Review mode (now care-review)
 - **3.3.0** — Added 7 customer-centric communication patterns
 - **3.2.0** — Added P52–P56, reinforced P13/P30/P49, updated brand voice
 - **3.1.0** — Added P45–P51, P25 clarification, checklist update
