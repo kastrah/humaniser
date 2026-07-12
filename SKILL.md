@@ -415,7 +415,7 @@ An em dash in a conditional construction ("If X — what to do") weakens the fra
 
 ## SENTENCE & STRUCTURE PATTERNS
 
-These patterns operate above the word level. They are structural AI tells — not vocabulary problems but construction problems. They appear in blogs, emails, social posts, and landing pages.
+These patterns operate above the word level. They are structural AI tells: not vocabulary problems but construction problems. They appear in blogs, emails, social posts, and landing pages.
 
 ---
 
@@ -457,7 +457,7 @@ These patterns operate above the word level. They are structural AI tells — no
 
 **Applies to:** blog sections, email body, social captions, landing page copy
 
-**Note — intentional vs. structural fragments:** Pattern 25 targets structural fragments: noun phrases or participials that AI generates as standalone sentences in place of complete thoughts. A deliberately chosen stylistic fragment — used once, for rhythmic effect, where the complete meaning is conveyed — is different. The test: a structural fragment exists because the sentence was never finished. An intentional stylistic fragment exists because the writer stopped exactly there on purpose. When in doubt, write the complete sentence.
+**Note: intentional vs. structural fragments:** Pattern 25 targets structural fragments: noun phrases or participials that AI generates as standalone sentences in place of complete thoughts. A deliberately chosen stylistic fragment, used once for rhythmic effect where the complete meaning is conveyed, is different. The test: a structural fragment exists because the sentence was never finished. An intentional stylistic fragment exists because the writer stopped exactly there on purpose. When in doubt, write the complete sentence.
 
 ---
 
@@ -508,7 +508,7 @@ These patterns operate above the word level. They are structural AI tells — no
 
 ### 27. Stutter Sentences
 
-**Problem:** Two consecutive short sentences making the same point. The second adds no new information — it just repeats the first in different words. Merge them or cut one.
+**Problem:** Two consecutive short sentences making the same point. The second adds no new information: it just repeats the first in different words. Merge them or cut one.
 
 **Before:**
 > Relief arrives first, often. Guilt about the relief follows closely.
@@ -544,15 +544,15 @@ These patterns operate above the word level. They are structural AI tells — no
 
 ### 28. Indirect Constructions and Negative Framing Before Positive
 
-**Problem:** AI routinely hedges before committing — stating what something is NOT before stating what it IS. This creates two sentences to carry one idea. Cut the negative frame and state the positive directly. If contrast is genuinely needed, keep it in one clause, not split across two sentences.
+**Problem:** AI routinely hedges before committing: stating what something is NOT before stating what it IS. This creates two sentences to carry one idea. Cut the negative frame and state the positive directly. If contrast is genuinely needed, keep it in one clause, not split across two sentences.
 
 **Patterns to kill:**
 
-"Not because X, but because Y" — cut the hedge, keep the commitment.
+"Not because X, but because Y": cut the hedge, keep the commitment.
 > ❌ "Not out of carelessness. Out of there being nothing left."
 > ✅ "Because there is nothing left."
 
-"Not X. X." — the negation followed by the affirmation.
+"Not X. X.": the negation followed by the affirmation.
 > ❌ "This is not a personal failing. It is a documented pattern with a cause."
 > ✅ "It is a documented pattern with a specific cause: [state the cause]."
 
@@ -631,7 +631,7 @@ Negative parallelism across two sentences:
 > It is a documented pattern with a cause.
 
 **After:**
-> It is a documented pattern with a specific cause — one person absorbs what an entire support system should carry, with no policy backup, no paid leave, and no formal acknowledgment that they exist.
+> It is a documented pattern with a specific cause: one person absorbs what an entire support system should carry, with no policy backup, no paid leave, and no formal acknowledgment that they exist.
 
 ---
 
@@ -639,7 +639,7 @@ Negative parallelism across two sentences:
 > Anticipatory grief is documented extensively in caregiver research. Anxiety, guilt, helplessness, anger. These are its fingerprints.
 
 **After:**
-> Anticipatory grief is documented extensively in caregiver research — anxiety, guilt, helplessness, and anger are its most consistent markers.
+> Anticipatory grief is documented extensively in caregiver research: anxiety, guilt, helplessness, and anger are its most consistent markers.
 
 ---
 
@@ -659,13 +659,13 @@ Negative parallelism across two sentences:
 
 ---
 
-**Sub-pattern: labelling the type of claim before making it.** A sentence that names the category of the information to follow — "The consequences are clinical, not abstract:" or "This is systemic, not personal:" — is a label without the content. Delete the category label and make the claim directly.
+**Sub-pattern: labelling the type of claim before making it.** A sentence that names the category of the information to follow, "The consequences are clinical, not abstract:" or "This is systemic, not personal:", is a label without the content. Delete the category label and make the claim directly.
 
 **Before:**
 > The consequences are clinical, not abstract: missed doses cause resistance, hospitalisation, and worse outcomes.
 
 **After:**
-> Missed doses cause resistance, hospitalisation, and worse outcomes — these are measurable, documented consequences, not a caregiver's anxiety.
+> Missed doses cause resistance, hospitalisation, and worse outcomes. These are measurable, documented consequences, not a caregiver's anxiety.
 
 ---
 
@@ -679,7 +679,7 @@ Negative parallelism across two sentences:
 > 85% of informal caregivers in Nigeria report some level of burnout. This is a documented pattern with a cause.
 
 **After:**
-> 85% of informal caregivers in Nigeria report some level of burnout — a predictable outcome when one person absorbs what an entire support system should carry, with no policy backup, no paid leave, and no formal acknowledgment that they exist.
+> 85% of informal caregivers in Nigeria report some level of burnout, a predictable outcome when one person absorbs what an entire support system should carry, with no policy backup, no paid leave, and no formal acknowledgment that they exist.
 
 ---
 
@@ -699,14 +699,14 @@ Negative parallelism across two sentences:
 
 ---
 
-### 32. Stat Dishonesty — Know What Your Number Actually Proves
+### 32. Stat Dishonesty: Know What Your Number Actually Proves
 
 **Problem:** A statistic from a limited study gets presented as if it were national data, universal truth, or settled science. Scope matters. Using a hospital study as a national figure is dishonest, and readers notice.
 
 **Rule:** Know exactly what a stat proves before using it. Attribute it to its actual scope. A narrow, honestly attributed figure is stronger than a broad, shaky one.
 
 **Before:**
-> In Nigerian hospitals, 92% of informal caregivers are women. (implies national data — it came from one hospital study)
+> In Nigerian hospitals, 92% of informal caregivers are women. (implies national data: it came from one hospital study)
 
 **After:**
 > In one Nigerian hospital study, 92% of the family members showing up daily to care for admitted patients were women.
@@ -721,7 +721,7 @@ Negative parallelism across two sentences:
 
 ### 33. Overclaimed Before/After
 
-**Problem:** The "after" in a story, case study, or testimonial suggests the subject recovered or reversed what they lost. That is almost never true, and readers know it. False resolution undermines emotional credibility. The after must be honest — not restorative, but forward-facing.
+**Problem:** The "after" in a story, case study, or testimonial suggests the subject recovered or reversed what they lost. That is almost never true, and readers know it. False resolution undermines emotional credibility. The after must be honest, not restorative, but forward-facing.
 
 **Rule:** The after is not a reversal. It is an opening.
 
@@ -752,14 +752,14 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 **Problem:** A bold word or phrase followed by a colon, followed by explanation is the single most recognisable AI formatting pattern in structured content. It signals a generated list. It appears in blog sections, emails, and landing pages.
 
 **Before:**
-> **Build the care team — with names, not requests.** Requests evaporate. Someone is on medications...
+> **Build the care team: with names, not requests.** Requests evaporate. Someone is on medications...
 >
 > **Build the information document before you need it.** One shared record: medication names, dosages...
 
 **After:**
 > Name the roles instead of just asking for help. A request can be declined or forgotten, but ownership can't. When someone's name is on medications and someone else's is on appointments, the weight distributes.
 >
-> Build the information document before you need it — one shared record covering medication names, dosages, prescribing doctors, refill dates, and emergency contacts, kept accessible to everyone and updated after every significant appointment.
+> Build the information document before you need it. One shared record covering medication names, dosages, prescribing doctors, refill dates, and emergency contacts, kept accessible to everyone and updated after every significant appointment.
 
 ---
 
@@ -783,12 +783,12 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 - A one-sentence paragraph is a tool, not a habit. Use it when you need weight, not rhythm.
 
 **Before (wrong weight distribution):**
-> The stat lines are short. The systemic explanation is short. Elizabeth's voice is medium. The close is short. The one place length is earned is inside Elizabeth's quote — because that's where the texture lives.
+> The stat lines are short. The systemic explanation is short. Elizabeth's voice is medium. The close is short. The one place length is earned is inside Elizabeth's quote, because that's where the texture lives.
 >
 > *(All short. Nothing lands harder than anything else.)*
 
 **After:**
-> Let the systemic explanation breathe: it needs length to earn the reader's trust. Let Elizabeth's voice be specific and textured: that's where the emotional weight lives. Let the close be short, because by then the reader should already feel it.
+> Let the systemic explanation breathe, it needs length to earn the reader's trust. Let Elizabeth's voice be specific and textured, that's where the emotional weight lives. Let the close be short, because by then the reader should already feel it.
 
 ---
 
@@ -805,7 +805,7 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 > Caregivers in Nigeria face enormous challenges and often burn out. This post will help you understand what you're going through and what to do about it.
 
 **After — TAS:**
-> Luisa is the strong one — the sister who carries donkeys, moves bridges, and absorbs everyone's problems without complaint. The family knows who to call when something needs handling, and she answers every time. *(Thesis)*
+> Luisa is the strong one, the sister who carries donkeys, moves bridges, and absorbs everyone's problems without complaint. The family knows who to call when something needs handling, and she answers every time. *(Thesis)*
 >
 > Then, quietly, she starts losing her powers. She keeps showing up, keeps performing, keeps acting like nothing has changed, even as she runs completely empty and still answers every call. *(Antithesis)*
 >
@@ -859,7 +859,7 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 > [brand] is built on the belief that caregivers deserve support too.
 
 **After:**
-> [brand] delivers medications to the door, synchronises refills, and maintains a care plan the whole family can see — so the person managing everything doesn't have to manage the pharmacy too.
+> [brand] delivers medications to the door, synchronises refills, and maintains a care plan the whole family can see, so the person managing everything doesn't have to manage the pharmacy too.
 
 ---
 
@@ -971,15 +971,15 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 
 ### 42. Functional, Not Performative Close
 
-**Problem:** The closing of an email, blog, or social post stacks multiple jobs — theme explanation, celebration line, CTA, PS — each element competing with the others. AI closes by wrapping everything up. Human writing closes by landing one thing cleanly.
+**Problem:** The closing of an email, blog, or social post stacks multiple jobs: theme explanation, celebration line, CTA, PS, each element competing with the others. AI closes by wrapping everything up. Human writing closes by landing one thing cleanly.
 
 **Rule:** The close does one job. Every element that competes with that job should be removed or moved.
 
 **Correct order for a closing sequence:**
-1. One honest, earned line — the emotional or argumentative conclusion
+1. One honest, earned line: the emotional or argumentative conclusion
 2. One transitional line that moves toward the CTA without forcing it
 3. CTA that feels like a next step, not a push
-4. PS that bridges to the next piece of content — one sentence only
+4. PS that bridges to the next piece of content: one sentence only
 
 **Before:**
 > That is what caregiving really means. We celebrate every caregiver this Women's Day. To learn more about how [brand] supports caregivers like you, visit our website. And don't forget to share this with someone who needs to hear it. PS: Tomorrow we'll share five tips for managing medication remotely.
@@ -987,7 +987,7 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 **After:**
 > You are allowed to still be a person inside this role.
 >
-> For caregivers managing medications in Nigeria — in the same city or a different country — [brand] exists to take the medication burden off your plate so your energy goes to the parts of caring that only you can do.
+> For caregivers managing medications in Nigeria, in the same city or a different country, [brand] exists to take the medication burden off your plate so your energy goes to the parts of caring that only you can do.
 >
 > → [See how [brand] works]
 
@@ -1003,9 +1003,9 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 
 ### 43. Writer-Serving Headlines
 
-**Problem:** A headline is poetic, clever, or internally meaningful to the author, but opaque to the reader. The reader must enter the section before understanding what it is about. Writer-serving headlines fail at the job headlines exist to do — communicate to a stranger in one line.
+**Problem:** A headline is poetic, clever, or internally meaningful to the author, but opaque to the reader. The reader must enter the section before understanding what it is about. Writer-serving headlines fail at the job headlines exist to do: communicate to a stranger in one line.
 
-**Checklist — every headline must pass all five:**
+**Checklist: every headline must pass all five:**
 - Does the reader know what this section is about before entering it?
 - Does it speak to the reader's situation, not the writer's concept?
 - Is it specific enough that it would mean something out of context?
@@ -1047,7 +1047,7 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 
 **Same rules as section headlines apply, plus:**
 
-**Rule:** The subject line should create a gap the reader wants to close — a question they want answered, a statement that surprises them, or a situation they recognise.
+**Rule:** The subject line should create a gap the reader wants to close: a question they want answered, a statement that surprises them, or a situation they recognise.
 
 **Before:**
 > Women's Day Newsletter — [brand] Celebrates Caregivers
@@ -1079,7 +1079,7 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 
 ## ADDITIONAL PATTERNS
 
-The following patterns supplement the sections above. Each is numbered to continue the sequence (45–56) and named as a standalone rule — no assumption about existing knowledge required.
+The following patterns supplement the sections above. Each is numbered to continue the sequence (45–56) and named as a standalone rule: no assumption about existing knowledge required.
 
 ---
 
@@ -1091,7 +1091,7 @@ The following patterns supplement the sections above. Each is numbered to contin
 - `noun — past participial`: `women — assigned the role by`, `a system — designed around compliance`
 - `noun — present participial`: `a team — operating without oversight`, `a model — relying on assumptions`
 
-**Rule:** When a participial phrase carries the main relationship between a noun and its modifier, use a relative clause. Reserve em dashes for genuine parenthetical asides — information that could be removed without losing the main point.
+**Rule:** When a participial phrase carries the main relationship between a noun and its modifier, use a relative clause. Reserve em dashes for genuine parenthetical asides: information that could be removed without losing the main point.
 
 **Before:**
 > 67% of caregivers are women — assigned the role by a family that decided they were most available.
@@ -1167,18 +1167,18 @@ The following patterns supplement the sections above. Each is numbered to contin
 
 ---
 
-**Applies to:** all copy — nominalizations are universal but most damaging in emails and landing pages where directness matters most
+**Applies to:** all copy: nominalizations are universal but most damaging in emails and landing pages where directness matters most
 
 ---
 
 ### 47. Passive Voice Avoiding Agency
 
-**Problem:** AI uses passive construction to avoid naming who did what. "Mistakes were made" names no one. "The decision was made to..." hides who decided. In marketing copy, removing agency removes credibility — the reader cannot evaluate a claim with no named actor.
+**Problem:** AI uses passive construction to avoid naming who did what. "Mistakes were made" names no one. "The decision was made to..." hides who decided. In marketing copy, removing agency removes credibility: the reader cannot evaluate a claim with no named actor.
 
 **When passive is acceptable:** agent unknown or genuinely irrelevant.
 > "The clinic was established in 1992." (who built it is irrelevant; the date is the point)
 
-**When passive is evasive:** known agent deliberately omitted — fix it.
+**When passive is evasive:** known agent deliberately omitted, fix it.
 > ❌ "Mistakes were made in handling your account."
 > ✅ "We made a mistake in handling your account."
 
@@ -1208,13 +1208,13 @@ The following patterns supplement the sections above. Each is numbered to contin
 
 ---
 
-**Applies to:** emails, case studies, testimonials, landing pages — anywhere agency and accountability matter
+**Applies to:** emails, case studies, testimonials, landing pages: anywhere agency and accountability matter
 
 ---
 
 ### 48. Adverb Intensifier Stacking
 
-**Problem:** An intensifying adverb is paired with an adjective that already carries the meaning. The adverb adds no information — it signals the writer felt the adjective was insufficient and tried to compensate with volume. Stronger word choice or a specific example is always better than stacking.
+**Problem:** An intensifying adverb is paired with an adjective that already carries the meaning. The adverb adds no information: it signals the writer felt the adjective was insufficient and tried to compensate with volume. Stronger word choice or a specific example is always better than stacking.
 
 **High-frequency offenders:**
 - "extremely important" → state the specific consequence
@@ -1254,7 +1254,7 @@ The following patterns supplement the sections above. Each is numbered to contin
 
 ---
 
-**Applies to:** all copy — adverb stacking is universal but most visible in marketing copy where it substitutes for specificity
+**Applies to:** all copy: adverb stacking is universal but most visible in marketing copy where it substitutes for specificity
 
 ---
 
@@ -1305,7 +1305,7 @@ The following patterns supplement the sections above. Each is numbered to contin
 
 ---
 
-**Sub-pattern: forced possessive personalisation.** Repeated use of "your parent," "your patient," "your care recipient" in opening sentences and throughout a piece is a form of unearned intimacy — it assumes a specific relationship rather than addressing the reader directly. Once established, the possessive feels laboured. Use "them," "the person," or restructure around the reader ("you") instead.
+**Sub-pattern: forced possessive personalisation.** Repeated use of "your parent," "your patient," "your care recipient" in opening sentences and throughout a piece is a form of unearned intimacy: it assumes a specific relationship rather than addressing the reader directly. Once established, the possessive feels laboured. Use "them," "the person," or restructure around the reader ("you") instead.
 
 **Before:**
 > Your parent may be skipping doses. Your parent's doctor may not know. When your parent runs out, the consequences compound quickly.
@@ -1315,7 +1315,7 @@ The following patterns supplement the sections above. Each is numbered to contin
 
 ---
 
-**Applies to:** blog openers, email intros, social hooks, testimonial copy — anywhere the writer attempts to connect by assuming rather than showing
+**Applies to:** blog openers, email intros, social hooks, testimonial copy: anywhere the writer attempts to connect by assuming rather than showing
 
 ---
 
@@ -1358,7 +1358,7 @@ The following patterns supplement the sections above. Each is numbered to contin
 
 ---
 
-**Applies to:** all copy — these metaphors appear most in mission statements, about pages, and opening paragraphs where writers reach for significance language
+**Applies to:** all copy: these metaphors appear most in mission statements, about pages, and opening paragraphs where writers reach for significance language
 
 ---
 
@@ -1399,11 +1399,11 @@ The following patterns supplement the sections above. Each is numbered to contin
 > Having understood the problem, let's take a look at how [brand] solves it.
 
 **After:**
-> [Show how [brand] solves it. The reader understood the problem — they read it.]
+> [Show how [brand] solves it. The reader understood the problem. They read it.]
 
 ---
 
-**Applies to:** blog section transitions, email body, report sections, landing page flow — anywhere the writer signals a shift instead of making one
+**Applies to:** blog section transitions, email body, report sections, landing page flow: anywhere the writer signals a shift instead of making one
 
 ---
 
@@ -1417,7 +1417,7 @@ The following patterns supplement the sections above. Each is numbered to contin
 > In Nigeria: call 112 or go directly to the nearest hospital. Message your Care Specialist on the way: they can coordinate with the hospital and help move admission along.
 
 **After:**
-> In Nigeria, call 112 or go directly to the nearest hospital. Message your Care Specialist on the way — they can coordinate with the hospital and help move admission along.
+> In Nigeria, call 112 or go directly to the nearest hospital. Message your Care Specialist on the way, they can coordinate with the hospital and help move admission along.
 
 Or, separating the two instructions into distinct sentences:
 > Message your Care Specialist on the way. They can coordinate with the hospital, share your parent's full medication history, and help move admission along so you're not starting from scratch at the queue. If you're in Nigeria, call 112 or take them directly to the nearest hospital with an emergency unit.
@@ -1432,7 +1432,7 @@ Or, separating the two instructions into distinct sentences:
 
 ---
 
-**Applies to:** all copy — colons are not wrong, but two colons in one paragraph is always a structural problem
+**Applies to:** all copy: colons are not wrong, but two colons in one paragraph is always a structural problem
 
 ---
 
@@ -1476,7 +1476,7 @@ Or, separating the two instructions into distinct sentences:
 
 ---
 
-**Applies to:** headlines, section openers, closing lines, product descriptions — anywhere clever construction tempts the writer away from a plain statement
+**Applies to:** headlines, section openers, closing lines, product descriptions: anywhere clever construction tempts the writer away from a plain statement
 
 ---
 
@@ -1506,7 +1506,7 @@ Or, separating the two instructions into distinct sentences:
 
 ---
 
-**Applies to:** blogs, emails, social posts — any piece written for a defined audience where the label appears more than once
+**Applies to:** blogs, emails, social posts: any piece written for a defined audience where the label appears more than once
 
 ---
 
@@ -1558,7 +1558,7 @@ Or, separating the two instructions into distinct sentences:
 
 **Rule:** Never assume the logical connection is obvious to the reader. Name it. Then move.
 
-**Applies to:** blog section transitions, email body paragraphs, LinkedIn posts, landing page copy — anywhere two ideas follow each other and the "why" is missing
+**Applies to:** blog section transitions, email body paragraphs, LinkedIn posts, landing page copy: anywhere two ideas follow each other and the "why" is missing
 
 ---
 
@@ -1617,7 +1617,7 @@ The distinction: engagement-bait promises a story or a speaker's discovery. Util
 
 ---
 
-**Applies to:** blog titles, article headlines, email subject lines, social post hooks — wherever the title is the first thing a reader sees before deciding whether to engage
+**Applies to:** blog titles, article headlines, email subject lines, social post hooks: wherever the title is the first thing a reader sees before deciding whether to engage
 
 ---
 
@@ -1643,7 +1643,7 @@ The following patterns ensure copy speaks to customers' actual experiences, not 
 > Pharmacies stock medications based on what's moving fast, so when your mum's medication doesn't fall under that, no amount of reminders can help. The pharmacy shelf is empty & the next window for restocking hasn't arrived.
 
 **After (customer-validated focus):**
-> You only remember to order your refills when you're already in pain. You're not lazy — here's what's actually happening.
+> You only remember to order your refills when you're already in pain. Here's what's actually happening.
 
 ---
 
@@ -1763,7 +1763,7 @@ The following patterns ensure copy speaks to customers' actual experiences, not 
 > Patients forget to refill because they don't prioritizse their health.
 
 **After:**
-> You only remember to refill when you're already out. That's not laziness — that's not having a system.
+> You only remember to refill when you're already out. That's a systems problem.
 
 **Before:**
 > Customers don't use pharmacy delivery because they're used to going themselves.
@@ -2250,28 +2250,28 @@ Example: [product] schedules delivery before she runs out. Her brand, her dose, 
 4. Rewrite each problematic section
    - **When to expand, not cut:** If an idea is cramped into one dense sentence, expand it so each point gets its own sentence. Plain does not mean terse. Clarity comes before both shortness and length.
 5. Ensure the revised text:
-   - Has no fragment sentences — every sentence has a subject and a verb doing real work (P25)
-   - Has no throat-clearing — every opener starts with the substance, not the announcement of it (P26)
-   - Has no stutter sentences — consecutive short sentences say different things (P27)
-   - Has no negative parallelisms — states what things ARE, not what they are not (P28)
+   - Has no fragment sentences: every sentence has a subject and a verb doing real work (P25)
+   - Has no throat-clearing: every opener starts with the substance, not the announcement of it (P26)
+   - Has no stutter sentences: consecutive short sentences say different things (P27)
+   - Has no negative parallelisms: states what things ARE, not what they are not (P28)
    - Has no opener that announces instead of starting (P29)
    - Labels nothing without explaining what is inside the label (P30)
    - Follows every statistic with an explanation of what it means or why it happened (P31)
    - Has headlines that communicate to a stranger before they enter the section (P43)
    - Has a close that does one job (P42)
-   - Uses active verbs rather than nominalized noun phrases — "decide" not "make a decision" (P46)
-   - Names who is doing what — no evasive passive voice (P47)
-   - Uses no adverb intensifiers — specific claims or consequences replace vague emphasis (P48)
+   - Uses active verbs rather than nominalized noun phrases: "decide" not "make a decision" (P46)
+   - Names who is doing what: no evasive passive voice (P47)
+   - Uses no adverb intensifiers: specific claims or consequences replace vague emphasis (P48)
    - Shows the reader's situation rather than naming their assumed inner state (P49)
-   - Uses no journey / navigate / landscape metaphors — states what is actually happening (P50)
+   - Uses no journey / navigate / landscape metaphors: states what is actually happening (P50)
    - Transitions by opening the next thing, not by announcing that a transition is happening (P51); where a logical connection between ideas is missing, supplies it explicitly (P55)
    - Uses relative clauses (who/which/that + verb) rather than em dash + participial for noun modification (P45)
-   - Has no more than one colon per paragraph — stacked colons in a single passage are replaced with commas or full stops (P52)
+   - Has no more than one colon per paragraph: stacked colons in a single passage are replaced with commas or full stops (P52)
    - Says the thing directly rather than constructing something smart about it (P53)
-   - Uses "you" after establishing the audience, not a repeated label — "diaspora caregiver," "business owner," "your parent" do not appear more than necessary (P54)
+   - Uses "you" after establishing the audience, not a repeated label: "diaspora caregiver," "business owner," "your parent" do not appear more than necessary (P54)
    - Has blog/article titles that answer the question the reader is already asking, not titles that promise to reveal how the answer was found (P56)
-   - **Customer-validated, not system-educated** — every problem claim traces to customer data, not system observation (P57, P63)
-   - **Speaks TO, not AT** — uses direct address ("You're the person who...") not statistics about a group (P58)
+   - **Customer-validated, not system-educated**: every problem claim traces to customer data, not system observation (P57, P63)
+   - **Speaks TO, not AT**: uses direct address ("You're the person who...") not statistics about a group (P58)
    - **Benefit-led, not feature-led** — describes what customer gets, not what product does (P59)
    - **CTAs are direct and benefit-led** — no lectures, no "learn more," just what the customer wants (P60)
    - **JTBD-focused** — specific customer behaviors, not pharmacy mechanics (P61)
