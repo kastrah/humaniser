@@ -37,7 +37,7 @@ Review this message: [your draft]
 ### Humaniser
 Identifies and rewrites AI-generated text so the final version sounds natural, specific, and human. It is based on Wikipedia's "Signs of AI writing" guide, then extended with practical editing standards for marketing copy, customer communication, blogs, emails, social posts, and product pages.
 
-The skill checks for 50+ patterns, including inflated significance, promotional filler, vague authority, em dash overuse, rule-of-three padding, negative parallelisms, generic transitions, stutter sentences, feature-led copy, lecture-style CTAs, over-clean rhythm, and copy that talks at the reader instead of to them.
+The skill checks for 67 patterns, including inflated significance, promotional filler, vague authority, em dash overuse, rule-of-three padding, negative parallelisms, generic transitions, stutter sentences, feature-led copy, lecture-style CTAs, over-clean rhythm, and copy that talks at the reader instead of to them.
 
 ### Messaging Review (REMI)
 Evaluates any outbound or inbound message against four principles:
@@ -63,6 +63,7 @@ Humaniser should run near the end of the workflow. If you run it too early, late
 - [blader/humanizer](https://github.com/blader/humanizer) — original Humaniser skill, covering the Wikipedia AI writing specifications only
 
 ## Version History
+- **4.1.0** — Added P64–P67 (Inanimate Actor, Stacked Rhetorical Questions, Dramatic Pivot, Invented Hyphenated Adjectives) from [shreyashankar/plain-writing-skill](https://github.com/shreyashankar/plain-writing-skill); added expansion-for-clarity guidance to Process
 
 - **4.0.2** — Renamed skill and user-facing references from Humanizer to Humaniser
 - **4.0.1** — Improved public description and workflow positioning

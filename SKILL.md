@@ -1,6 +1,6 @@
 ---
 name: humaniser
-version: 4.0.2
+version: 4.1.0
 description: |
   Two modes in one skill:
 
@@ -1795,6 +1795,115 @@ The following patterns ensure copy speaks to customers' actual experiences, not 
 
 ---
 
+
+### 64. Inanimate Actor (Anthropomorphic Subjects)
+
+**Problem:** LLMs make abstract nouns or inanimate things perform actions only people can do. "The system delivers results" — no it doesn't. A person uses the system and gets results. This is a subtle but consistent AI tell.
+
+**Words to watch:** enables, empowers, delivers, drives, ensures, fosters, facilitates, leverages, unlocks, transforms, provides (when the subject is not a person or company acting intentionally)
+
+**Before:**
+> The platform enables seamless collaboration across distributed teams.
+
+**After:**
+> Teams in different locations can work together through the platform.
+
+**Before:**
+> The logs become searchable records once the job finishes.
+
+**After:**
+> You can search the logs once the job finishes.
+
+**Before:**
+> This approach ensures consistent quality across all outputs.
+
+**After:**
+> This approach keeps quality consistent across all outputs.
+
+**Fix:** Make a person the actor. Use "is/are/has" for inanimate subjects, or restructure so the user is the one doing the thing. Exception: common phrases like "the paper argues" or "the study found" are fine.
+
+*Source: adapted from [shreyashankar/plain-writing-skill](https://github.com/shreyashankar/plain-writing-skill), Rule 8.*
+
+
+### 65. Stacked Rhetorical Questions
+
+**Problem:** AI writes two or three rhetorical questions in a row to simulate thoughtfulness. "Does the AI preserve the writer's voice? Does it make the argument stronger or weaker? And what about the reader's experience?" This isn't depth — it's padding dressed as inquiry.
+
+**Before:**
+> But what does this mean for the average user? How do they navigate this new landscape? And what happens when the tools they rely on suddenly change?
+
+**After:**
+> The average user now has to figure out how to work with tools that may change without warning.
+
+**Before:**
+> Is this the right approach? Does it scale? What about edge cases?
+
+**After:**
+> The question is whether this approach scales and handles edge cases.
+
+**Fix:** State the problem directly. If the rhetorical question contains an actual point, extract it and say it.
+
+*Source: adapted from [shreyashankar/plain-writing-skill](https://github.com/shreyashankar/plain-writing-skill), Rule 14.*
+
+
+### 66. The Dramatic Pivot
+
+**Problem:** LLMs set up a statement, then undercut or pivot in the next sentence to create artificial tension. "X is still opaque. Readers notice Y, but Y is only one symptom." This is a rhetorical trick that adds drama without adding information.
+
+**Before:**
+> The interface looks clean. But beneath the surface, serious problems lurk.
+
+**After:**
+> The interface looks clean, but it has serious usability problems.
+
+**Before:**
+> Everyone talks about AI agents. Few have actually shipped one that works.
+
+**After:**
+> Most teams talking about AI agents haven't shipped one that works yet.
+
+**Before:**
+> The metrics look good. The reality is more complicated.
+
+**After:**
+> The metrics look good on the surface, but the underlying trends are mixed.
+
+**Fix:** Combine the setup and pivot into one sentence that states the full point. Don't stage a reveal.
+
+*Source: adapted from [shreyashankar/plain-writing-skill](https://github.com/shreyashankar/plain-writing-skill), Rule 15.*
+
+
+### 67. Invented Hyphenated Adjectives
+
+**Problem:** AI coins new hyphenated compound adjectives to sound compact and clever — "reveal-style colon", "decision-grade metrics", "enterprise-ready stack". These aren't real terms. They force the reader to decode what could have been stated plainly.
+
+**Words to watch:** Any hyphenated two-or-three-word adjective that you wouldn't find in a dictionary or hear in normal speech.
+
+**Before:**
+> The system uses a click-to-reveal pattern for inline details.
+
+**After:**
+> The system shows details inline when you click.
+
+**Before:**
+> We need a decision-grade data pipeline.
+
+**After:**
+> We need a data pipeline reliable enough to base decisions on.
+
+**Before:**
+> This is a mission-critical, enterprise-ready platform.
+
+**After:**
+> This platform is built for enterprise use and handles critical workloads.
+
+**Fix:** If you'd hesitate to say it out loud in a meeting, write it out in plain words instead. Common compound adjectives like "well-crafted" or "cross-functional" are fine. Made-up ones are not.
+
+*Source: adapted from [shreyashankar/plain-writing-skill](https://github.com/shreyashankar/plain-writing-skill), Rule 9.*
+
+
+---
+
 ## Brand voice
 
 Apply this section when writing content for a specific brand. If the user provides brand context — name, audience, product, the problem it solves — apply these principles to that brand. If no brand context is provided, ask for it before proceeding. Product-specific details (audience, features, mechanisms, use cases) will vary by brand, but the principles below do not.
@@ -2058,7 +2167,8 @@ Example: Famasi Go schedules delivery before she runs out. Her brand, her dose, 
 2. **If brand context is provided:** identify the platform (LinkedIn, Twitter/X, Instagram, Carousel) and apply the relevant playbook from the Platform playbooks section before anything else. Structure must be right before language is cleaned.
 3. Identify all instances of the patterns above
 4. Rewrite each problematic section
-4. Ensure the revised text:
+   - **When to expand, not cut:** If an idea is cramped into one dense sentence, expand it so each point gets its own sentence. Plain does not mean terse. Clarity comes before both shortness and length.
+5. Ensure the revised text:
    - Has no fragment sentences — every sentence has a subject and a verb doing real work (P25)
    - Has no throat-clearing — every opener starts with the substance, not the announcement of it (P26)
    - Has no stutter sentences — consecutive short sentences say different things (P27)
