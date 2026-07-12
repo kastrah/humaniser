@@ -2365,24 +2365,3 @@ Provide:
 This skill is based on [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), maintained by WikiProject AI Cleanup. The patterns documented there come from observations of thousands of instances of AI-generated text on Wikipedia.
 
 Key insight from Wikipedia: "LLMs use statistical algorithms to guess what should come next. The result tends toward the most statistically likely result that applies to the widest variety of cases."
-
-### Research evidence (supporting data for patterns 68–74)
-
-**Bynder AI vs Human Content Study (2024, N=2,000, UK/US):** 50% of readers correctly identified AI-generated copy in a blind test. Of those who spotted it, 52% disengaged from the content, 26% described the brand as impersonal, and 20% called it lazy. Paradoxically, 56% preferred the AI article in the blind test — but disengagement kicked in the moment they suspected AI.
-
-**Originality.ai LinkedIn Study (2024, 8,795 posts):** 54% of long-form LinkedIn posts are likely AI-generated. AI posts received 45% less engagement than likely-human posts.
-
-**AI LinkedIn Post Structural Analysis (500 posts):** 91% used single-sentence-per-line formatting (P74). 82% opened with one of three hook templates (contrarian opener, humble brag, shock statement). 73% contained permission phrases like "Here's the thing" at 34x normal conversational frequency (P73).
-
-**Science Advances (peer-reviewed):** AI-assisted stories were rated more creative individually, but became more similar to each other — AI increases perceived individual creativity while eroding collective content diversity.
-
-**Springer AI & Society (2026, N=88, two-year experiment):** Detection accuracy seldom exceeds chance when people rely on surface-level heuristics (grammar, formatting). The strongest predictor of correct attribution was whether a text *felt captivating* — affective and tacit responses outperformed formal linguistic analysis. Participants who focused on grammar and formatting performed *worse* than those who used gut feeling.
-
-**Typeform "Get Real" Survey (2026, N=2,000+):** 95% of marketers use AI at work. 91% edit AI-generated copy to make it sound more human — even when it's already correct.
-
-**DemandScience 2026 Report (N=750 senior marketing leaders):** 72% said AI-generated content is hurting brand distinction.
-
-**Amanda Natividad's framing:** "AI-generated text doesn't have a bad voice. It has an absent one. It reads like a composite of every competent writer on the internet — which is exactly what it is." ([I Know When You Didn't Write That](https://amandanat.substack.com/p/i-know-when-you-didnt-write-that), Feb 2026)
-
----
-
