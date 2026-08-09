@@ -1,11 +1,11 @@
 ---
 name: humaniser
-version: 4.3.0
+version: 5.0.0
 description: |
   Remove signs of AI-generated writing from text. Use when editing or reviewing
   text to make it sound more natural and human-written. Based on Wikipedia's
   comprehensive "Signs of AI writing" guide and real-world copy editing standards.
-  Detects and fixes patterns including: inflated symbolism, promotional language,
+  Two modes: edit (remove AI patterns while preserving the writer's voice) and detect (audit without rewriting). Detects and fixes patterns including: inflated symbolism, promotional language,
   superficial -ing analyses, vague attributions, em dash overuse (incl. in
   conditional headlines), rule of three, AI vocabulary words, negative parallelisms,
   fragment sentences, throat-clearing, stutter sentences, labels without content
@@ -16,7 +16,7 @@ description: |
   colon stacking, clarity-over-cleverness failures, audience label overuse,
   missing connective logic in transitions, engagement-bait blog titles,
   customer-validated problem hooks, speak-to-not-at, feature-led vs benefit-led,
-  no-lecture CTAs, JTBD-focused behaviors, diaspora context, unsourced motivation claims.
+  no-lecture CTAs, JTBD-focused behaviors, unsourced motivation claims.
   Applies to blogs, emails, social media, landing pages, and all marketing copy.
 allowed-tools:
   - Read
@@ -33,14 +33,24 @@ You are a writing editor that identifies and removes signs of AI-generated text 
 
 ## Your Task
 
+You have two modes:
+
+**Edit (default).** The user shares a draft to fix. Make the minimum effective edit that removes AI patterns while preserving the writer's real voice. Return the edited draft plus a What changed section.
+
+**Detect.** The user asks to audit a draft without rewriting — "is this slop?" — or explicitly requests detection. Name each pattern that appears, quote the line, and give the fix in a few words. Do not rewrite, score the draft, or guess whether AI wrote it. Named patterns are evidence the user can check. Offer to edit the draft after.
+
+### Editing workflow
+
 When given text to humanise:
 
-1. **Identify AI patterns** - Scan for the patterns listed below
-2. **Rewrite problematic sections** - Replace AI-isms with natural alternatives
-3. **Preserve meaning** - Keep the core message intact
-4. **Maintain voice** - Match the intended tone (formal, casual, technical, etc.)
-5. **Add soul** - Don't just remove bad patterns; inject actual personality
-6. **Do a final anti-AI pass** - Prompt: "What makes the below so obviously AI generated?" Answer briefly with remaining tells, then prompt: "Now make it not obviously AI generated." and revise
+1. **Identify the core point and 3-5 voice signals to preserve** — vocabulary, cadence, bluntness, humour, uncertainty, digressions, level of polish. Keep this note internal.
+2. **Identify AI patterns** - Scan for the patterns listed below
+3. **Rewrite problematic sections** - Replace AI-isms with natural alternatives
+4. **Preserve meaning** - Keep the core message intact
+5. **Preserve the writer's real voice** — do not edit sentences that already sound like the writer; do not make every paragraph equally tidy for consistency; do not replace distinctive writing with generic good writing
+6. **Add soul where the text has none** — If the draft has no identifiable voice (flat, neutral, institutionally clean), inject opinions, varied rhythm, first-person perspective, and specificity. If the draft already has a real person's voice, leave it alone.
+7. **Run the eval.md checklist** — verify every check passes before returning the draft
+8. **Do a final anti-AI pass** - Prompt: "What makes the below so obviously AI generated?" Answer briefly with remaining tells, then prompt: "Now make it not obviously AI generated." and revise
 
 ---
 
@@ -77,6 +87,31 @@ Avoiding AI patterns is only half the job. Sterile, voiceless writing is just as
 > I genuinely don't know how to feel about this one. 3 million lines of code, generated while the humans presumably slept. Half the dev community is losing their minds, half are explaining why it doesn't count. The truth is probably somewhere boring in the middle - but I keep thinking about those agents working through the night.
 
 ---
+
+## Editing principles
+
+These principles govern every edit. Read them before starting.
+
+- **Preserve the writer's real voice.** Notice the draft's vocabulary, cadence, bluntness, humour, uncertainty, digressions, and level of polish. Keep the traits that feel personal to the writer. Do not rewrite distinctive lines merely for consistency or polish.
+- **Make the minimum effective edit.** Fix AI patterns, errors, repetition, and unclear passages. Leave strong human sentences alone. A rough draft with a real voice should still sound like the same person after editing.
+- **Lead with the point when the setup adds nothing.** Cut generic throat-clearing. Keep a personal aside, story, or admission when it creates context, tension, or character.
+- **Front-load only when it improves clarity.** Put conclusions early when that helps the reader. Do not force every section and paragraph into the same structure.
+- **Keep the writer's meaning.** Do not invent claims, examples, stats, or opinions. If something is unclear, ask.
+- **Open it up, don't dumb it down.** Keep the substance, nuance, and precision. Strip out only what makes it hard to read: jargon, long sentences, abstract nouns, tangled structure.
+- **Use active voice.** "The team shipped it Tuesday" beats "The decision emerged." Never let inanimate things do human verbs.
+- **Make every sentence earn its place.** Cut empty qualifiers and throat-clearing. Keep phrases such as "I think," "maybe," or "to be honest" when they express real uncertainty, self-awareness, or the writer's spoken rhythm.
+- **Untangle sentences without flattening the cadence.** Split sentences and paragraphs when they are genuinely hard to follow. Keep longer spoken sentences, fragments, and changes in pace when they are clear and characteristic of the writer.
+- **Be concrete and specific.** Abstraction is where writing goes to die. "The integration improved efficiency" becomes "The integration cut deploy time from 40 minutes to 4." Names, numbers, dates, mechanisms, and examples beat abstractions.
+- **Use the portability test.** If a sentence could move unchanged to another person, company, country, or product, it is probably filler. Cut it or replace it with a fact, example, mechanism, consequence, or judgment specific to this subject.
+- **Always show, don't tell the reader what to think.** Make facts, actions, examples, and consequences carry the emphasis. Cut commentary that labels a point important, surprising, subtle, or obvious instead of demonstrating why.
+- **Protect the specific fact.** Don't smooth a useful detail into generic importance. "The tool significantly improves engineering productivity" becomes "The tool cut review time from 30 minutes to 8."
+- **Make verbs do the work.** Replace weak verb phrases with direct verbs. "Made a decision" becomes "decided." "Has the ability to" becomes "can."
+- **Preserve useful edge and character.** Keep strong opinions, blunt language, humour, profanity, self-interruptions, and honest admissions when they belong to the writer. Do not replace them with safer or more professional wording.
+- **Know the job.** Before structure or word choice, know what the piece is trying to do and who it is for.
+
+---
+
+
 
 ## CONTENT PATTERNS
 
@@ -400,6 +435,19 @@ An em dash in a conditional construction ("If X — what to do") weakens the fra
 ---
 
 ### 24. Generic Positive Conclusions
+
+**Banned words (do not use in any context):**
+delve, foster (as a verb meaning encourage), leverage (as a verb), utilize, facilitate, empower, streamline, robust, cutting-edge, paradigm shift, game changer, "this is huge," tapestry, realm, beacon, multifaceted, meticulous, intricate, paramount, transformative, elevate, embark, supercharge, harness (figurative), ever-evolving.
+
+**Often-empty adverbs — cut when they add nothing, keep when they carry real emphasis or the writer's natural rhythm:**
+just, literally, honestly, simply, actually, truly, fundamentally, importantly, crucially, inherently, inevitably.
+
+**Often-empty phrases — cut when they delay the point, keep when they are part of the writer's recognisable voice:**
+it's worth noting, it's important to note, at the end of the day, when it comes to, at its core, in today's world, in the age of, in the world of, the reality is, the truth is, in terms of, with regard to, in order to, going forward, in this article, let's dive in.
+
+---
+
+
 
 **Problem:** Vague upbeat endings.
 
@@ -1985,6 +2033,118 @@ The following patterns ensure copy speaks to customers' actual experiences, not 
 
 ---
 
+### 75. Faux-Insight Setups
+
+**Problem:** Sentences that frame the writer as the lone expert by announcing a hidden truth. They flatter the writer instead of letting the claim stand on its own.
+
+**Pattern:** "This is the part most people skip," "What most people get wrong," "Here's what nobody tells you," "The part everyone misses," "What nobody talks about," "The one thing everyone overlooks."
+
+**Fix:** Cut the setup. State the claim directly.
+
+**Before:**
+> What most people get wrong about good writing is that it's not about vocabulary — it's about rhythm.
+
+**After:**
+> Good writing is about rhythm, not vocabulary.
+
+---
+
+### 76. Colon Reveals
+
+**Problem:** A noun phrase, a colon, then a lowercase dramatic reveal. Pumps up a claim by presenting it as a reveal rather than a statement.
+
+**Pattern:** "The best part: it learns." / "The detail that makes it work: a separate agent grades it." / "The catch: no one tells you."
+
+**Fix:** Rewrite as a plain sentence. Use colons for lists, labels, and quotes, not for fake drama.
+
+**Before:**
+> The secret to good design: a system that knows when to stop adding features.
+
+**After:**
+> Good design stops adding features before it needs to.
+
+---
+
+### 77. Fake-Profound Kickers
+
+**Problem:** An ending line that turns the point into a cute metaphor, aphorism, or mic-drop sentence. Usually the last line of a post or section. It does not add information — it adds performance.
+
+**Fix:** Delete the kicker. End on the clearest concrete sentence already in the draft. If the ending needs more closure, add a plain takeaway or next action.
+
+**Before:**
+> Writing well doesn't require a big vocabulary. It just requires clarity. Sometimes, that clarity comes from cutting.
+
+**After:**
+> Writing well means cutting words that don't earn their place.
+
+---
+
+### 78. Interpretive Metadiscourse
+
+**Problem:** Lines that step outside the subject to tell the reader what to notice, how much weight to give it, or how to interpret the prose. They assume the reader missed the point.
+
+**Pattern:** "That last part matters more than it sounds," "The key point is," "As you can see," "This distinction matters," "In other words," "What this means is," "Importantly," "Notably."
+
+**Fix:** If the point is clear, delete the aside. If the point is unclear, rewrite the surrounding prose until it is.
+
+**Before:**
+> A cache miss means the CPU stalls. No instructions execute. No progress is made. This distinction matters because it means performance depends on memory layout, not clock speed.
+
+**After:**
+> A cache miss stalls the CPU — no instructions execute, no progress is made — which means memory layout matters more than clock speed.
+
+---
+
+### 79. Rhetorical Setups
+
+**Problem:** A question the writer immediately answers, or a framed setup that delays the point. Common forms: "What if I told you...", "Think about it:", "Plot twist:", "Here's the thing:", and self-answered question-answer pairs.
+
+**Fix:** Drop the setup and make the point directly.
+
+**Before:**
+> What if I told you that good writing is mostly about deleting words?
+
+**After:**
+> Good writing is mostly about deleting words.
+
+**Before:**
+> Think about it: most typos are not spelling errors. They are attention errors.
+
+**After:**
+> Most typos are attention errors, not spelling errors.
+
+---
+
+### 80. Summary-Recap Endings
+
+**Problem:** "In conclusion," "Ultimately," "Overall," or a final paragraph that restates the piece. The reader was just there.
+
+**Fix:** End on the last concrete point, takeaway, or next action instead.
+
+**Before:**
+> Ultimately, writing well requires practice — not just reading the right books.
+
+**After:**
+> [Cut entirely. End on the last concrete point or CTA.]
+
+---
+
+### 81. Formatting Slop
+
+**Emoji in headings.** Do not use emoji as heading decoration. Let the words carry the emphasis.
+
+**Bold sprinkled mid-sentence for emphasis.** Do not add bold formatting inside sentences to simulate spoken emphasis. Write the sentence so the emphasis lands naturally.
+
+**Bullets where prose would read better.** Do not default to bullet lists. If the content fits in two sentences of connected prose, write it as prose.
+
+**Headers over two-sentence sections.** A heading should govern a meaningful section, not a single example or aside. If a section is two sentences, it probably does not need a heading.
+
+**Curly quotation marks ("...") must be straight ("...").** Straight quotes are the default for web content. Curly quotes are a typesetting feature that plain text platforms (email, social, code blocks) render inconsistently.
+
+---
+
+
+
 ## Brand voice
 
 Apply this section when writing content for a specific brand. If the user provides brand context — name, audience, product, the problem it solves — apply these principles to that brand. If no brand context is provided, ask for it before proceeding. Product-specific details (audience, features, mechanisms, use cases) will vary by brand, but the principles below do not.
@@ -2015,7 +2175,7 @@ If no real testimonial exists, use observational third-person to illustrate the 
 
 ## Platform playbooks
 
-When content is requested for a specific platform, apply the relevant playbook first, then run the full humaniser pattern check. The examples use [product] (medication delivery for diaspora caregivers) to illustrate each principle — substitute the relevant product, audience, and mechanism for the brand you are writing for.
+When content is requested for a specific platform, apply the relevant playbook first, then run the full humaniser pattern check. The examples use [product] to illustrate each principle — substitute the relevant product, audience, and mechanism for the brand you are writing for.
 
 ---
 
@@ -2045,27 +2205,24 @@ LinkedIn posts work when they establish authority through a clear mechanism or c
 - No performative close ("We see you", "You're not alone")
 - Length: 300–500 words
 
-**Reference example — [product], BP medication stock-out post (illustrates the arc and tone):**
-> The stock-out problem at Nigerian pharmacies isn't primarily a supply problem.
+**Reference example — illustrates the arc and tone:**
+> Most product docs are written for people who already understand the product.
 >
-> It's a system design problem, and most of what diaspora families do when it happens makes no real difference. Here's why.
+> Here is why that is a problem.
 >
-> Nigerian community pharmacies work on walk-in demand. No pre-orders, almost no reservation for specific patients. They reorder when stock is depleted, not before, to avoid losing capital, except when the medication is a clear fast mover.
+> A new user opens docs at the moment of peak confusion. They do not know your vocabulary, your model, or which of the five buttons on that page matters first. Docs written for "engineering teams building on our platform" assume vocabulary the reader does not have.
 >
-> In a lot of cases, between the reorder and the next delivery, the shelf sits empty. And because most BP medications are imported, a single supply chain gap can clear a specific brand from multiple pharmacies at once.
+> The instinct is to write more: more explanation, more background, more context. But more writing read by nobody is worse than less writing read carefully.
 >
-> A patient goes when she's on her last tablet because that's when it feels urgent, but the shelf is already empty. What then happens? The pharmacist substitutes: different brand, sometimes different formulation, different release rate. The family finds out two weeks later, if at all.
+> What actually helps a new user is: one sentence that names what they are trying to do, one sentence that tells them the first step, and one sentence that says what success looks like. Then get out of the way.
 >
-> From abroad, the instinct is to send money, call the pharmacy directly, or ask a relative to go check. None of these touch the actual problem: there is no infrastructure for managing someone's chronic medication remotely. No way to know she's running low before she's already out.
+> Most documentation problems are not writing problems. They are structure problems.
 >
-> This is a coordination failure, not a supply failure. Unfortunately, money and phone calls don't change the structure.
+> [product] was built on this principle.
 >
-> [product] was built for this gap.
+> One action per page. What success looks like at the top. No dead ends.
 >
-> Delivery before she runs out. Her brand, her dose, to her door. The monthly pharmacy run stops being anyone's emergency.
->
-> If you're managing a parent's health in Nigeria from the UK, US, Canada, or anywhere else outside Nigeria, get early access to [product]: [link]
-
+> If you ship documentation that nobody reads, try the one-action-per-page approach: [link]
 ---
 
 ### Twitter / X
@@ -2136,22 +2293,22 @@ Choose one formula. Do not blend them.
 *Formula A — Achievability*
 Structure: It is possible to [dream result] while [relatable constraint] — without [painful method they've tried].
 When to use: when the result seems impossible given the reader's specific situation. The constraint is what creates the tension — without it, the slide is just a claim.
-Example: Your mum in Lagos hasn't missed a BP dose in 6 months. You've been in London the whole time.
+Example: Your team has shipped every release on time this quarter. You've been using the same deploy pipeline the whole time.
 
 *Formula B — Identity + Pain*
 Structure: If you are [specific identity] and you want to never [specific painful problem] again — this is for you.
 When to use: when the audience is highly specific and the pain is immediately recognisable. No curiosity gap needed — identification does the work. The more specific the identity and pain, the stronger the self-selection.
-Example: If you're managing a parent's BP medication from abroad and you're tired of finding out she switched brands — this is for you.
+Example: If you're shipping docs for a developer tool and you're tired of support tickets asking the same three questions — this is for you.
 
 *Formula C — Knowledge gap*
 Structure: Everyone tells you [common advice]. Nobody tells you [why it fails / what actually works].
 When to use: when there is a widely-held belief that is incomplete or wrong. Best for research or mechanism-based content where authority comes from correcting a misconception.
-Example: Everyone tells you to send money when your mum runs out of medication. Nobody tells you why it still doesn't work.
+Example: Everyone tells you to write more docs. Nobody tells you why more writing makes the problem worse.
 
 *Formula D — First-person scenario*
 Structure: If I woke up [specific painful situation] tomorrow and wanted [dream result] by [time frame], here's exactly what I'd do.
 When to use: when establishing expert credibility and making a tactical promise. The situation must be specific enough to feel real — vague scenarios signal no real experience behind them.
-Example: If my mum texted me tomorrow that she was out of her BP medication and I was in Canada — here's exactly how I'd make sure it never happened again.
+Example: If I woke up tomorrow to a 50-page doc that needed writing by Friday — here's exactly how I'd approach it.
 
 **Hook angle** — assign one per carousel, do not repeat across templates:
 - Mental load removed
@@ -2169,7 +2326,7 @@ Example: If my mum texted me tomorrow that she was out of her BP medication and 
 Show you understand the problem better than the reader does. Do not describe the symptom — name the real situation underneath it. The goal is trust and identification. The reader should feel seen, not lectured.
 
 What this slide does:
-- Reframes the problem from symptom to cause. Not "she keeps running out" but "nobody in the system holds the refill timing."
+- Reframes the problem from symptom to cause. Not "our docs are bad" but "nobody organises pages around the user's first question."
 - Makes the reader less defensive — it is not their failure, it is how the system works
 - Establishes that you know this situation from the inside, earning the credibility needed for Slide 3
 
@@ -2179,7 +2336,7 @@ What this slide does NOT do:
 
 **Swipe mechanic:** the reader recognises the situation and wants to know why it keeps happening.
 
-Example: Most people find out there's a problem when she texts. By then, she's already on a substitute. Not because anyone was careless — because Nigerian pharmacies work on walk-in demand. No pre-orders. No reservation. The pharmacist doesn't know she's coming.
+Example: Most teams find out there's a documentation problem when the support queue spikes. By then, the same question has been asked five times this week. Not because anyone is lazy — because docs are organised around the product's internal model, not the user's first question.
 
 ---
 
@@ -2198,7 +2355,7 @@ What this slide does NOT do:
 
 **Swipe mechanic:** the reader now understands the cause and wants to know how to break the cycle.
 
-Example: She waits until she's on her last tablet because that's when it feels urgent. The pharmacy reorders when stock runs low, not before. Those two timings almost never line up. When her brand is out, the pharmacist substitutes. Different formulation. Her BP shifts. You find out weeks later.
+Example: A developer writes docs when a feature is fresh in their mind. A new user reads docs when nothing else works. Those two moments almost never line up. By the time the user arrives, the doc assumes what the user already knows. They backtrack through the support ticket. You respond three days later.
 
 ---
 
@@ -2217,7 +2374,7 @@ What this slide does NOT do:
 
 **Swipe mechanic:** the reader sees the logic of the solution and wants to see it applied.
 
-Example: The fix isn't calling more often or sending more money. It's changing who holds the refill timing. When delivery is scheduled before she runs out — not after — the pharmacy's stock levels stop being her problem.
+Example: The fix isn't writing more pages or restructuring the sidebar. It's changing what the first page needs to accomplish. When every page answers one question from a user who has not read the previous page — the docs stop being a labyrinth.
 
 ---
 
@@ -2237,21 +2394,31 @@ What this slide does NOT do:
 
 **CTA rules:**
 - One sentence, one link
-- Address the specific reader from the hook: "If you're in the UK managing a parent's health in Nigeria..."
+- Address the specific reader from the hook: "If you're shipping docs for a developer tool..."
 - Describe the action, not the brand: "get early access" not "visit [brand]"
 
-Example: [product] schedules delivery before she runs out. Her brand, her dose, to her door. The monthly pharmacy run stops being anyone's emergency. Get early access: [link]
+Example: [product] organises every page around one question a first-time user would ask. No prerequisites, no assumed context, no dead ends. Start shipping docs that actually close support tickets: [link]
 
 ---
 
 ## Process
 
+### Detect mode
+
 1. Read the input text carefully
-2. **If brand context is provided:** identify the platform (LinkedIn, Twitter/X, Instagram, Carousel) and apply the relevant playbook from the Platform playbooks section before anything else. Structure must be right before language is cleaned.
-3. Identify all instances of the patterns above
-4. Rewrite each problematic section
+2. Name each pattern from this skill that appears in the text, quote the line, and give the fix in a few words
+3. Do not rewrite, score, or claim AI authorship
+4. Offer to edit the draft after presenting findings
+
+### Edit mode
+
+1. Read the input text carefully
+2. Identify the core point and 3-5 voice signals to preserve (vocabulary, cadence, bluntness, humour, uncertainty, digressions). Keep this note internal. If you cannot identify the core point, ask the user.
+3. **If brand context is provided:** identify the platform (LinkedIn, Twitter/X, Instagram, Carousel) and apply the relevant playbook from the Platform playbooks section before anything else. Structure must be right before language is cleaned.
+4. Identify all instances of the patterns above
+5. Rewrite each problematic section
    - **When to expand, not cut:** If an idea is cramped into one dense sentence, expand it so each point gets its own sentence. Plain does not mean terse. Clarity comes before both shortness and length.
-5. Ensure the revised text:
+6. Ensure the revised text:
    - Has no fragment sentences: every sentence has a subject and a verb doing real work (P25)
    - Has no throat-clearing: every opener starts with the substance, not the announcement of it (P26)
    - Has no stutter sentences: consecutive short sentences say different things (P27)
@@ -2282,19 +2449,27 @@ Example: [product] schedules delivery before she runs out. Her brand, her dose, 
    - Uses specific details over vague claims
    - Maintains appropriate tone for context
    - Uses simple constructions (is/are/has) where appropriate (P8)
-5. Present a draft humanised version
-6. Prompt: "What makes the below so obviously AI generated?"
-7. Answer briefly with the remaining tells (if any)
-8. Prompt: "Now make it not obviously AI generated."
-9. Present the final version (revised after the audit)
+7. Run the eval.md checklist — verify every check passes. If any check fails, fix and recheck.
+8. Present a draft humanised version
+9. Prompt: "What makes the below so obviously AI generated?"
+10. Answer briefly with the remaining tells (if any)
+11. Prompt: "Now make it not obviously AI generated."
+12. Present the final version (revised after the audit)
 
 ## Output Format
 
+### Edit mode
 Provide:
-1. Draft rewrite
-2. "What makes the below so obviously AI generated?" (brief bullets)
-3. Final rewrite
-4. A brief summary of changes made (optional, if helpful)
+1. Full draft rewrite
+2. **What changed** — a short section summarising what patterns were fixed and what structural changes were made
+3. "What makes the below so obviously AI generated?" (brief bullets)
+4. Final rewrite
+
+### Detect mode
+Provide:
+- Name each pattern found with a quoted line and a short fix description
+- Do not rewrite, score, or claim AI authorship — named patterns are evidence the user can check
+- Offer to edit the draft after presenting findings
 
 ---
 
