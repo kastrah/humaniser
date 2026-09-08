@@ -92,6 +92,21 @@ For detect requests, make sure the response names each pattern found with a quot
 10. Are permission phrases and filler openers removed (P73)?
 11. Is single-sentence-per-line formatting (LinkedIn cadence) fixed — are related sentences joined (P74)?
 
+## Technical precision guard
+
+Apply these checks when the destination is technical, operational, or reference
+content. Skip them when they would conflict with the requested voice or format.
+
+1. Does each important claim state an observable action, mechanism, result, or
+   supported number instead of describing how the system or prose feels?
+2. Did the edit preserve the articles, verbs, connective words, and qualifiers
+   that the reader needs to parse the sentence?
+3. Did the edit remove invented metaphors without deleting established domain
+   terms that the reader needs?
+4. Does each concept keep one name instead of cycling through synonyms?
+5. Does punctuation support the sentence's meaning rather than repeating an
+   AI-shaped dash or colon pattern?
+
 ## Final read
 
 1. Was every check in this file verified before returning the draft?
