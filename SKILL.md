@@ -1,6 +1,6 @@
 ---
 name: humaniser
-version: 5.0.0
+version: 5.1.0
 description: |
   Remove signs of AI-generated writing from text. Use when editing or reviewing
   text to make it sound more natural and human-written. Based on Wikipedia's
@@ -108,6 +108,29 @@ These principles govern every edit. Read them before starting.
 - **Make verbs do the work.** Replace weak verb phrases with direct verbs. "Made a decision" becomes "decided." "Has the ability to" becomes "can."
 - **Preserve useful edge and character.** Keep strong opinions, blunt language, humour, profanity, self-interruptions, and honest admissions when they belong to the writer. Do not replace them with safer or more professional wording.
 - **Know the job.** Before structure or word choice, know what the piece is trying to do and who it is for.
+
+### Precision guard for technical prose
+
+When the destination is technical, operational, or reference content, preserve
+precision while removing AI patterns:
+
+- Say what the person or system does, the observable result, or the mechanism.
+  Replace claims about how a tool "feels" with a fact, action, or measurable result.
+- Do not shorten prose by dropping articles, verbs, connective words, or required
+  qualifiers. Complete sentences are clearer than symbol-heavy shorthand.
+- Replace an abstract metaphor with the concrete operation it describes. Keep a
+  real domain term when the reader needs it, and define it on first use when it
+  is not familiar.
+- Use one name for one concept. Do not cycle through synonyms to avoid repeating
+  the correct technical term.
+- Treat punctuation as a clarity choice. Reduce repeated em dashes or colons,
+  but keep one when it makes the sentence easier to read or matches the
+  destination's established style.
+
+This guard supplements the technical-document structure in
+`communicate-clearly`. It does not turn brand, personal, or creative writing
+into a technical document.
+
 
 ---
 
@@ -437,7 +460,9 @@ An em dash in a conditional construction ("If X — what to do") weakens the fra
 ### 24. Generic Positive Conclusions
 
 **Banned words (do not use in any context):**
-delve, foster (as a verb meaning encourage), leverage (as a verb), utilize, facilitate, empower, streamline, robust, cutting-edge, paradigm shift, game changer, "this is huge," tapestry, realm, beacon, multifaceted, meticulous, intricate, paramount, transformative, elevate, embark, supercharge, harness (figurative), ever-evolving.
+delve, foster (as a verb meaning encourage), leverage (as a verb), utilize, facilitate, empower, streamline, robust, cutting-edge, paradigm shift, game changer, "this is huge," tapestry, realm, beacon, multifaceted, meticulous, intricate, paramount, transformative, elevate, embark, supercharge, harness (figurative), ever-evolving., load-bearing (figurative), does the work / doing the work / does specific work, carries the argument, bears the weight, holds the piece together, the hinge of the piece, the spine of the piece, the engine of the argument.
+
+The weight metaphors sound like analysis and say nothing. State what the sentence, detail, or comparison actually does — "the comparison works because X, and breaks if Y" — or cut the sentence.
 
 **Often-empty adverbs — cut when they add nothing, keep when they carry real emphasis or the writer's natural rhythm:**
 just, literally, honestly, simply, actually, truly, fundamentally, importantly, crucially, inherently, inevitably.
@@ -818,6 +843,23 @@ The distinction: "gained back" looks backward at what was taken and implies it w
 
 **After:**
 > Our platform saves you 3 hours a week, takes under 10 minutes to set up, and our team is available 24/7 if anything goes wrong.
+
+---
+
+**The same error in running prose: a colon standing in for a conjunction.**
+
+A colon earns its place when it introduces a list, a definition, a quotation, or a
+bold header in a table or slide. When the second half is simply the next clause of
+the same sentence, the colon is decoration, and it reads as generated. Use a
+conjunction or a relative clause.
+
+**Before:**
+> The comparison does one job, and he states it outright: Los Alamos measured a risk it could actually test and still proceeded.
+
+**After (either works):**
+> The comparison does one job, and it states it, because Los Alamos measured a risk it could actually test and still proceeded.
+>
+> The comparison does one job, which is that Los Alamos measured a risk it could actually test and still proceeded.
 
 ---
 
